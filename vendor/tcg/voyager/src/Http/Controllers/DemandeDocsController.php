@@ -1,0 +1,187 @@
+<?php
+
+namespace TCG\Voyager\Http\Controllers;
+
+use Illuminate\Database\Eloquent\SoftDeletes;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
+use TCG\Voyager\Database\Schema\SchemaManager;
+use TCG\Voyager\Events\BreadDataAdded;
+use TCG\Voyager\Events\BreadDataDeleted;
+use TCG\Voyager\Events\BreadDataRestored;
+use TCG\Voyager\Events\BreadDataUpdated;
+use TCG\Voyager\Events\BreadImagesDeleted;
+use TCG\Voyager\Facades\Voyager;
+use TCG\Voyager\Http\Controllers\Traits\BreadRelationshipParser;
+use App\DemandeDoc;
+use App\Citoyen;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Storage;
+//use App\Http\Controllers\Controller;
+class DemandeDocsController extends Controller
+{
+    use BreadRelationshipParser;
+
+    public function EtatDemandeDocs(Request $request, $id)
+    {
+        $curTime = new \DateTime();
+        $slug = $this->getSlug($request);
+        //$CurrentUser = auth()->user();
+        $dataType = Voyager::model('DataType')->where('slug', '=', $slug)->first();
+         // Check permission
+        //$this->authorize('delete', app($dataType->model_name));
+        $Livrer =$request->Livrer;
+        $DemandeDoc = DemandeDoc::where('id', $id)->first();
+        //En attente
+        //dd( $Livrer);
+        if($Livrer=="1")
+        {
+            $DemandeDoc->etat =1;
+        }
+        else {
+            $DemandeDoc->etat =2;
+        }
+        $DemandeDoc->save();
+        $message ="";
+        if($Livrer=="1")
+        {
+            $message="La demande a étée livrée avec succées";
+        }
+        else {
+            $message="La demande a étée refusée avec succées";
+        }
+        $data=[
+                'message'    => $message,
+                'alert-type' => 'success',
+            ];
+        return redirect()->route("voyager.{$dataType->slug}.index")->with($data);
+    }
+    public function ChercherParPeriodeDocs(Request $request)
+    {
+        $etat=$request->etat;
+        $dat_deb=$request->dateDeb;
+        $date_fin=$request->dateFin;
+        //dd($date_fin);
+        // GET THE SLUG, ex. 'posts', 'pages', etc.
+        $slug = $this->getSlug($request);
+
+        // GET THE DataType based on the slug
+        $dataType = Voyager::model('DataType')->where('slug', '=',$slug)->first();
+
+        // Check permission
+        $this->authorize('publish', app($dataType->model_name));
+
+        $getter = $dataType->server_side ? 'paginate' : 'get';
+
+        $search = (object) ['value' => $request->get('s'), 'key' => $request->get('key'), 'filter' => $request->get('filter')];
+        $searchable = $dataType->server_side ? array_keys(SchemaManager::describeTable(app($dataType->model_name)->getTable())->toArray()) : '';
+        $orderBy = $request->get('order_by', $dataType->order_column);
+        $sortOrder = $request->get('sort_order', null);
+        $usesSoftDeletes = false;
+        $showSoftDeleted = false;
+        $orderColumn = [];
+        if ($orderBy) {
+            $index = $dataType->browseRows->where('field', $orderBy)->keys()->first() + 1;
+            $orderColumn = [[$index, 'desc']];
+            if (!$sortOrder && isset($dataType->order_direction)) {
+                $sortOrder = $dataType->order_direction;
+                $orderColumn = [[$index, $dataType->order_direction]];
+            } else {
+                $orderColumn = [[$index, 'desc']];
+            }
+        }
+
+        // Next Get or Paginate the actual content from the MODEL that corresponds to the slug DataType
+        if (strlen($dataType->model_name) != 0) {
+            $model = app($dataType->model_name);
+
+            if ($dataType->scope && $dataType->scope != '' && method_exists($model, 'scope'.ucfirst($dataType->scope) )) {
+                $query = $model->{$dataType->scope}();
+            } elseif ( $etat=="3" && empty($dat_deb) &&  empty($date_fin)) {
+               $query = $model::select('*');
+            }
+            elseif($etat=="3" && !empty($dat_deb) &&  !empty($date_fin)) {
+                $query =$model::whereBetween('date_demande', [$dat_deb, $date_fin]);
+            }
+            elseif($etat!="3" && empty($dat_deb) &&  empty($date_fin)) {
+                $query =$model::where('etat','=',$etat) ;
+            }
+            else {
+                 $query =$model::whereBetween('date_demande', [$dat_deb, $date_fin])
+                                ->where('etat','=',$etat) ;
+            }
+        /*}*/
+            // Use withTrashed() if model uses SoftDeletes and if toggle is selected
+            if ($model && in_array(SoftDeletes::class, class_uses($model)) && app('VoyagerAuth')->user()->can('delete', app($dataType->model_name))) {
+                $usesSoftDeletes = true;
+
+                if ($request->get('showSoftDeleted')) {
+                    $showSoftDeleted = true;
+                    $query = $query->withTrashed();
+                }
+            }
+
+            // If a column has a relationship associated with it, we do not want to show that field
+            $this->removeRelationshipField($dataType, 'browse');
+
+            if ($search->value != '' && $search->key && $search->filter) {
+                $search_filter = ($search->filter == 'equals') ? '=' : 'LIKE';
+                $search_value = ($search->filter == 'equals') ? $search->value : '%'.$search->value.'%';
+                $query->where($search->key, $search_filter, $search_value);
+            }
+
+            if ($orderBy && in_array($orderBy, $dataType->fields())) {
+                $querySortOrder = (!empty($sortOrder)) ? $sortOrder : 'desc';
+                $dataTypeContent = call_user_func([
+                    $query->orderBy($orderBy, $querySortOrder),
+                    $getter,
+                ]);
+            } elseif ($model->timestamps) {
+                $dataTypeContent = call_user_func([$query->latest($model::CREATED_AT), $getter]);
+            } else {
+                $dataTypeContent = call_user_func([$query->orderBy($model->getKeyName(), 'DESC'), $getter]);
+            }
+
+            // Replace relationships' keys for labels and create READ links if a slug is provided.
+            $dataTypeContent = $this->resolveRelations($dataTypeContent, $dataType);
+        } else {
+            // If Model doesn't exist, get data from table name
+            $dataTypeContent = call_user_func([DB::table($dataType->name), $getter]);
+            $model = false;
+        }
+
+        // Check if BREAD is Translatable
+        if (($isModelTranslatable = is_bread_translatable($model))) {
+            $dataTypeContent->load('translations');
+        }
+        //dd($dataTypeContent);
+        // Check if server side pagination is enabled
+        $isServerSide = isset($dataType->server_side) && $dataType->server_side;
+
+        // Check if a default search key is set
+        $defaultSearchKey = $dataType->default_search_key ?? null;
+
+        $view = $view = "voyager::$slug.browse";
+
+        /*if (view()->exists("voyager::$slug.Archive")) {
+            $view = "voyager::$slug.Archive";
+        }*/
+        return Voyager::view($view, compact(
+            'dataType',
+            'dataTypeContent',
+            'isModelTranslatable',
+            'search',
+            'orderBy',
+            'orderColumn',
+            'sortOrder',
+            'searchable',
+            'isServerSide',
+            'defaultSearchKey',
+            'usesSoftDeletes',
+            'showSoftDeleted'
+        ));
+
+    }
+
+
+}

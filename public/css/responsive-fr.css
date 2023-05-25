@@ -1,0 +1,511 @@
+                                    /*************************************************************
+.........................MEDIA QUERY.........................:
+*************************************************************/
+                                    
+                                    @media (max-width: 480px) {
+                                        .Home-banner {
+                                            height: auto;
+                                        }
+                                        .Home-banner .banner-descriptions {
+                                            padding: 60px 0;
+                                        }
+                                        .Home-banner .banner-descriptions h1 {
+                                            font-size: 12px;
+                                            /*line-height: 0px;*/
+                                            margin: 10px 0px;
+                                        }
+                                        .Home-banner .banner-descriptions p {
+                                            font-size: 10px;
+                                            line-height: 13px;
+                                        }
+                                        .Home-banner .carousel-caption {
+                                            top: -60px;
+                                        }
+                                        .h3,
+                                        h3 {
+                                            font-size: 16px;
+                                        }
+                                        .box {
+                                            margin-bottom: 20px
+                                        }
+                                        .Voting-wrapper {
+                                            border: 1px solid #ddd;
+                                            padding: 20px;
+                                            height: auto;
+                                            background-color: #fff;
+                                            box-shadow: 0 3px 19.74px 1.26px rgba(0, 0, 0, .11);
+                                            border-radius: 9px 9px 0 0;
+                                            border-bottom: 3px solid #b9a93c;
+                                        }
+                                        .news-content-area .news-content {
+                                            padding: 15px;
+                                            margin-bottom: 20px;
+                                            box-shadow: 0px 3px 19.74px 1.26px rgba(0, 0, 0, 0.11);
+                                            background-position: right;
+                                            background-size: contain;
+                                            background-repeat: no-repeat;
+                                            border-bottom: 2px solid #2a733e;
+                                            border-radius: 9px 9px 0 0;
+                                            background-image: url(../img/Bkg/news-01.png);
+                                            background-position: 120% 300%;
+                                            background-size: contain;
+                                            background-repeat: no-repeat;
+                                            border-bottom: 2px solid #b9a93c;
+                                            border-radius: 9px 9px 0 0;
+                                            height: auto;
+                                        }
+                                        .news-content .media-body {
+                                            padding: 10px;
+                                            width: auto;
+                                        }
+                                        .line-bottom-theme-colored-3 {
+                                            position: relative;
+                                            margin-bottom: 20px;
+                                            padding-bottom: 10px;
+                                            color: #215b36;
+                                            font-family: 'Hacen Tunisia Regular';
+                                            font-size: 18px;
+                                            font-weight: 300;
+                                            font-size: 30px;
+                                            font-family: 'Hacen Tunisia Lt Regular';
+                                            font-weight: 500;
+                                        }
+                                        .line-bottom-theme-colored-2:after {
+                                            border-radius: 10px;
+                                            bottom: -1px;
+                                            content: "";
+                                            height: 2px;
+                                            left: 0;
+                                            position: absolute;
+                                            width: 50%;
+                                            background: #2a733e;
+                                        }
+                                        .single-news img {
+                                            height: auto;
+                                        }
+                                        .single-tender img {
+                                            height: auto;
+                                        }
+                                        .tender-content-area .thumbnail {
+                                            padding: 14px;
+                                            border-bottom: 3px solid #25613c;
+                                            padding: 15px;
+                                            box-shadow: 0 3px 19.74px 1.26px #2d2b1940;
+                                            border-radius: 9px 9px 0 0;
+                                            border-bottom: 2px solid #2a733e;
+                                            height: auto;
+                                            margin-top: 40px;
+                                        }
+                                        .events-content .media-body {
+                                            padding: 10px;
+                                            width: auto;
+                                        }
+                                        .events-content-area .events-content {
+                                            padding: 15px;
+                                            margin-bottom: 20px;
+                                            box-shadow: 0 3px 19.74px 1.26px rgba(0, 0, 0, .11);
+                                            background-image: url(../img/Bkg/events-bkg.png);
+                                            background-position: 50% 138%;
+                                            background-size: contain;
+                                            background-repeat: no-repeat;
+                                            border-bottom: 2px solid #b9a93c;
+                                            border-radius: 9px 9px 0 0;
+                                        }
+                                        .monument-content-area .monument-content img {
+                                            max-width: 100%;
+                                            height: auto;
+                                        }
+                                        .monument-content-area .monument-content .media-body {
+                                            padding: 10px;
+                                            width: auto;
+                                        }
+                                        .main-content {
+                                            padding: 20px 0px;
+                                        }
+                                    }
+                                    
+                                    @media (max-width: 768px) {
+                                        .navbar .navbar-brand {
+                                            margin: 0
+                                        }
+                                        .single-project img {
+                                            width: 100%
+                                        }
+                                        .text-left {
+                                            text-align: left;
+                                        }
+                                        .gallery-slider p {
+                                            font-size: 11px;
+                                            margin-top: 10px;
+                                        }
+                                        .carousel-inner>.item>a>img,
+                                        .carousel-inner>.item>img {
+                                            padding: auto;
+                                        }
+                                        .navbar-default .navbar-nav .open .dropdown-menu>li>a {
+                                            text-align: center;
+                                            color: white;
+                                        }
+                                        .navbar-default .navbar-nav .open .dropdown-menu>li>a {
+                                            text-align: left;
+                                            color: #312e2e;
+                                        }
+                                        .navbar {
+                                            border: 0;
+                                            background: #fff;
+                                            font-family: cairo;
+                                            border-radius: 0;
+                                            margin: 0;
+                                        }
+                                        .navbar .navbar-nav>li>a {
+                                            font-size: 16px;
+                                            color: #484744;
+                                            font-family: 'cairo';
+                                        }
+                                        .navbar-default .navbar-nav>.open>a,
+                                        .navbar-default .navbar-nav>.open>a:focus,
+                                        .navbar-default .navbar-nav>.open>a:hover {
+                                            color: #b98f3c;
+                                        }
+                                        .album-wrapper {
+                                            border: 1px solid #ddd;
+                                            padding: 20px;
+                                            height: auto;
+                                            background-color: #ffffff;
+                                            box-shadow: 0px 3px 19.74px 1.26px rgba(0, 0, 0, 0.11);
+                                            border-radius: 9px 9px 0 0;
+                                            border-bottom: 3px solid #b98f3c;
+                                        }
+                                        .widgets .white-box {
+                                            background-color: white;
+                                            padding: 30px;
+                                            box-shadow: 0px 3px 19.74px 1.26px rgba(0, 0, 0, 0.11);
+                                            border-radius: 9px 9px 0 0;
+                                            border-bottom: 3px solid #b98f3c;
+                                            height: auto;
+                                        }
+                                        .media-body,
+                                        .media-left,
+                                        .media-right {
+                                            display: block;
+                                            vertical-align: top;
+                                            margin: 10px 0px;
+                                        }
+                                        .events-wrapper {
+                                            border: 1px solid #ddd;
+                                            padding: 20px;
+                                            height: auto;
+                                            box-shadow: 0px 3px 19.74px 1.26px rgba(0, 0, 0, 0.11);
+                                            border-radius: 9px 9px 0 0;
+                                            border-bottom: 3px solid #b98f3c;
+                                        }
+                                        .news-wrapper {
+                                            border: 1px solid #ddd;
+                                            padding: 20px;
+                                            background-color: #ffffff;
+                                            box-shadow: 0px 3px 19.74px 1.26px rgba(0, 0, 0, 0.11);
+                                            border-radius: 9px 9px 0 0;
+                                            border-bottom: 3px solid #b98f3c;
+                                            margin-bottom: 20px;
+                                            height: auto;
+                                        }
+                                        .mt50 {
+                                            margin-top: 20px;
+                                        }
+                                        .mt20 {
+                                            margin-top: 20px;
+                                        }
+                                        .section {
+                                            padding: 20px 0px 0px;
+                                        }
+                                        .top-titles h2 {
+                                            font-size: 20px !important;
+                                        }
+                                        .widgets .ar-widgets .thumbnail {
+                                            background-color: #2a733e;
+                                            padding: 10px;
+                                            box-shadow: 0px 3px 19.74px 1.26px #b9a93c40;
+                                            border-radius: 9px 9px 0 0;
+                                            border-bottom: 3px solid #349667;
+                                            height: 190px;
+                                            margin-bottom: 20px;
+                                            width: 170px;
+                                            background-image: url(../img/Bkg/wallpaper.jpg);
+                                            display: table;
+                                        }
+                                        #carousel-news .carousel-control .icon-prev,
+                                        #carousel-news .carousel-control .glyphicon-chevron-left {
+                                            margin-left: -10px;
+                                            right: 285%;
+                                            left: auto;
+                                            margin-left: -10px;
+                                            top: 910px;
+                                        }
+                                        #carousel-news .carousel-control .icon-next,
+                                        #carousel-news .carousel-control .glyphicon-chevron-right {
+                                            margin-right: -10px;
+                                            right: auto;
+                                            margin-right: -10px;
+                                            left: 305%;
+                                            margin-left: -10px;
+                                            top: 910px;
+                                        }
+                                        .pull-search {
+                                            float: none;
+                                        }
+                                        .pull-search .form-group input {
+                                            margin: 10px 0px;
+                                        }
+                                        .pull-search .sm-green-btn {
+                                            width: 100%;
+                                            /* height: 40px; */
+                                            background-color: #2a733e;
+                                            text-align: center;
+                                            color: #fff;
+                                            padding: 10px;
+                                            border-radius: 9px;
+                                            box-shadow: 0 3px 19.74px -4.74px rgba(0, 0, 0, .1);
+                                            font-family: 'Hacen Tunisia Lt Regular';
+                                            font-size: 13px;
+                                        }
+                                    }
+                                    
+                                    @media (max-width: 992px) {
+                                        .navbar-left {
+                                            width: 100%;
+                                        }
+                                        .gallery-slider .carousel-caption {
+                                            bottom: 0px;
+                                        }
+                                        .pray-times {
+                                            margin-top: 0px;
+                                        }
+                                        .widgets .white-box {
+                                            margin-bottom: 30px;
+                                        }
+                                    }
+                                    
+                                    @media screen and (min-width: 1024px) and (max-width: 1024px) {
+                                        .events-wrapper {
+                                            border: 1px solid #ddd;
+                                            padding: 20px;
+                                            height: 561px;
+                                            box-shadow: 0px 3px 19.74px 1.26px rgba(0, 0, 0, 0.11);
+                                            border-radius: 9px 9px 0 0;
+                                            border-bottom: 3px solid #b98f3c;
+                                        }
+                                        .news-wrapper {
+                                            border: 1px solid #ddd;
+                                            padding: 20px;
+                                            background-color: #ffffff;
+                                            box-shadow: 0px 3px 19.74px 1.26px rgba(0, 0, 0, 0.11);
+                                            border-radius: 9px 9px 0 0;
+                                            border-bottom: 3px solid #b98f3c;
+                                            margin-bottom: 20px;
+                                        }
+                                        .widgets .white-box {
+                                            background-color: white;
+                                            padding: 30px;
+                                            box-shadow: 0px 3px 19.74px 1.26px rgba(0, 0, 0, 0.11);
+                                            border-radius: 9px 9px 0 0;
+                                            border-bottom: 3px solid #b98f3c;
+                                            height: auto;
+                                        }
+                                        .media-wrapper video {
+                                            width: 200px;
+                                            height: 200px;
+                                        }
+                                        .media-wrapper audio {
+                                            width: 200px;
+                                            height: 54px;
+                                        }
+                                        .gallery-slider .carousel-caption {
+                                            -webkit-text-shadow: none;
+                                            -moz-text-shadow: none;
+                                            text-shadow: none;
+                                            bottom: 50px;
+                                        }
+                                        .events-wrapper .media-object {
+                                            width: 150px;
+                                        }
+                                        .widgets-header .banner-widgets .thumbnail {
+                                            background-color: #ddd;
+                                            /*padding: 10px;*/
+                                            box-shadow: 0px 3px 19.74px 1.26px #349667;
+                                            /* border-radius: 9px 9px 0 0; */
+                                            border-bottom: 3px solid #B9A93C;
+                                            height: 170px;
+                                            width: 100px;
+                                            margin-right: 10px;
+                                            /* vertical-align: middle; */
+                                            display: table;
+                                            /* display: table-cell; */
+                                            /* vertical-align: middle; */
+                                            border-radius: 0px;
+                                        }
+                                        .widgets .Pilgrimage h4 {
+                                            margin-top: 10px;
+                                            font-size: 14px;
+                                            line-height: 30px;
+                                            font-family: 'JF-Flat-regular';
+                                        }
+                                        .widgets .widget-title {
+                                            font-size: 24px;
+                                            font-family: 'Hacen Tunisia Lt Regular';
+                                            font-weight: 500;
+                                        }
+                                        .events-content-area .events-content {
+                                            background-position: 142% 100%;
+                                        }
+                                        .DOWN-position {
+                                            top: 520px;
+                                            left: 400px;
+                                        }
+                                        .UP-position {
+                                            top: 520px;
+                                            right: 380px;
+                                        }
+                                    }
+                                    
+                                    @media screen and (min-width: 768px) and (max-width: 768px) {
+                                        .widgets .white-box {
+                                            background-color: white;
+                                            padding: 30px;
+                                            box-shadow: 0px 3px 19.74px 1.26px rgba(0, 0, 0, 0.11);
+                                            border-radius: 9px 9px 0 0;
+                                            border-bottom: 3px solid #b98f3c;
+                                            height: 335px;
+                                        }
+                                        .pray-times {
+                                            margin-top: 0px;
+                                        }
+                                        .widgets-header .banner-widgets .thumbnail {
+                                            background-color: #ddd;
+                                            /*padding: 10px;*/
+                                            box-shadow: 0px 3px 19.74px 1.26px #349667;
+                                            /* border-radius: 9px 9px 0 0; */
+                                            border-bottom: 3px solid #B9A93C;
+                                            height: 150px;
+                                            width: 170px;
+                                            margin-right: 10px;
+                                            /* vertical-align: middle; */
+                                            display: table;
+                                            /* display: table-cell; */
+                                            /* vertical-align: middle; */
+                                            border-radius: 0px;
+                                        }
+                                        .album-wrapper {
+                                            border: 1px solid #ddd;
+                                            padding: 20px;
+                                            height: auto;
+                                            background-color: #ffffff;
+                                            box-shadow: 0px 3px 19.74px 1.26px rgba(0, 0, 0, 0.11);
+                                            border-radius: 9px 9px 0 0;
+                                            border-bottom: 3px solid #b98f3c;
+                                        }
+                                        .events-wrapper {
+                                            border: 1px solid #ddd;
+                                            padding: 20px;
+                                            height: auto;
+                                            box-shadow: 0px 3px 19.74px 1.26px rgba(0, 0, 0, 0.11);
+                                            border-radius: 9px 9px 0 0;
+                                            border-bottom: 3px solid #b98f3c;
+                                            margin-top: 20px;
+                                        }
+                                    }
+                                    
+                                    @media all and (min-width:1px) and (max-width:320px) {
+                                        .widgets .ar-widgets .thumbnail {
+                                            background-color: #2a733e;
+                                            padding: 10px;
+                                            box-shadow: 0px 3px 19.74px 1.26px #b9a93c40;
+                                            border-radius: 9px 9px 0 0;
+                                            border-bottom: 3px solid #349667;
+                                            height: 190px;
+                                            margin-bottom: 20px;
+                                            width: 140px;
+                                            background-image: url(../img/Bkg/wallpaper.jpg);
+                                            display: table;
+                                        }
+                                    }
+                                    
+                                    @media all and (min-width: 321px) and (max-width:375px) {
+                                        .events-content-area .events-content {
+                                            background-position: 122% 172%;
+                                        }
+                                    }
+                                    
+                                    @media all and (min-width: 376px) and (max-width: 425px) {
+                                        .events-content-area .events-content {
+                                            background-position: 122% 210%;
+                                        }
+                                    }
+                                    
+                                    @media all and (min-width: 481px) and (max-width: 768px) {
+                                        .events-content-area .events-content {
+                                            background-position: 135% 100%;
+                                        }
+                                        .media-body,
+                                        .media-left,
+                                        .media-right {
+                                            display: table-cell;
+                                            vertical-align: top;
+                                            margin: 10px 0px;
+                                        }
+                                        .monument-body {
+                                            background-color: #f9f9f9;
+                                            margin-top: 0px;
+                                            background-image: url(../img/Bkg/Mosquee_Zitouna.png);
+                                            background-repeat: no-repeat;
+                                            background-size: inherit;
+                                            /* bottom: 100px; */
+                                            content: '';
+                                            height: 100%;
+                                            right: 0;
+                                            /* position: absolute; */
+                                            background-position: 30% 65%;
+                                        }
+                                        .Voting-wrapper {
+                                            border: 1px solid #ddd;
+                                            padding: 20px;
+                                            height: auto;
+                                            background-color: #fff;
+                                            box-shadow: 0 3px 19.74px 1.26px rgba(0, 0, 0, .11);
+                                            border-radius: 9px 9px 0 0;
+                                            border-bottom: 3px solid #b9a93c;
+                                        }
+                                    }
+                                    
+                                    @media all and (min-width: 769px) and (max-width: 1024px) {
+                                        .monument-body {
+                                            background-color: #f9f9f9;
+                                            margin-top: 0px;
+                                            background-image: url(../img/Bkg/Mosquee_Zitouna.png);
+                                            background-repeat: no-repeat;
+                                            background-size: inherit;
+                                            /* bottom: 100px; */
+                                            content: '';
+                                            height: 100%;
+                                            right: 0;
+                                            /* position: absolute; */
+                                            background-position: -10% 50%;
+                                        }
+                                    }
+                                    
+                                    @media all and (min-width: 1025px) and (max-width: 1440px) {
+                                        .monument-body {
+                                            background-color: #f9f9f9;
+                                            margin-top: 0px;
+                                            background-image: url(../img/Bkg/Mosquee_Zitouna.png);
+                                            background-repeat: no-repeat;
+                                            background-size: inherit;
+                                            /* bottom: 100px; */
+                                            content: '';
+                                            height: 100%;
+                                            right: 0;
+                                            /* position: absolute; */
+                                            background-position: -800% 50%;
+                                        }
+                                    }
+                                    
+                                    @media (max-width: 1200px) {}
