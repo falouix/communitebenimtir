@@ -118,7 +118,7 @@ form label {
 .yellow-btn:focus {
     width: 120px;
     height: 40px;
-    background: #F2A30F;
+    background: red;
     color: #fff;
     font-size: 12px;
     border-radius: 9px;
@@ -142,7 +142,7 @@ form label {
     height: 40px;
     background: #fff;
     color: #000;
-    border: 1px solid #F2A30F;
+    border: 1px solid red;
     font-size: 10px;
     border-radius: 9px;
     padding: 12px;
@@ -179,7 +179,7 @@ form label {
 }
 
 .yellow-border {
-    border-bottom: 3px solid#F2A30F !important;
+    border-bottom: 3px solidred !important;
 }
 
 .mt10 {
@@ -279,7 +279,7 @@ form label {
 }
 
 .green-title {
-    color: #4c50ce;
+    color: #00c1ff;
     border-bottom: 2px solid;
     padding-bottom: 10px;
 }
@@ -288,7 +288,7 @@ form label {
     position: relative;
     margin-bottom: 20px;
     padding-bottom: 5px;
-    color: #4c50ce;
+    color: #00c1ff;
     font-family: 'Hacen Tunisia Regular';
     font-size: 18px;
     font-weight: 300;
@@ -328,7 +328,7 @@ form label {
     position: relative;
     margin-bottom: 20px;
     padding-bottom: 10px;
-    color: #6a5caf;
+    color: #00c1ff;
     font-family: 'Hacen Tunisia Regular';
     font-size: 18px;
     font-weight: 300;
@@ -386,7 +386,7 @@ form label {
 }
 
 .top-header {
-    background-color: #4c50ce;
+    background-color: #00c1ff;
     padding: 5px 0
 }
 
@@ -402,7 +402,7 @@ form label {
 }
 
 .top-header .top-header-links ul li a:hover {
-    color: #F2A30F;
+    color: red;
 }
 
 .top-header ul li {
@@ -415,7 +415,7 @@ form label {
 }
 
 .lg-fr {
-    background: #F2A30F;
+    background: red;
     border-radius: 100%;
     padding: 3px 6px;
     text-align: center;
@@ -476,7 +476,7 @@ form label {
 }
 
 .main-header .navbar-nav>li>a {
-    color: #F2A30F
+    color: red
 }
 
 .main-header .navbar-nav>li>a:focus,
@@ -507,7 +507,7 @@ form label {
 .navbar-default .navbar-nav>.active>a,
 .navbar-default .navbar-nav>.active>a:focus,
 .navbar-default .navbar-nav>.active>a:hover {
-    color: #F2A30F;
+    color: red;
     font-weight: 700;
     background: 0 0
 }
@@ -528,7 +528,7 @@ form label {
 .navbar-default .navbar-nav>.open>a,
 .navbar-default .navbar-nav>.open>a:focus,
 .navbar-default .navbar-nav>.open>a:hover {
-    color: #F2A30F
+    color: red
 }
 
 .navbar-default .navbar-nav>.open>a,
@@ -538,7 +538,7 @@ form label {
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: #F2A30F
+    background-color: red
 }
 
 .navbar-default .navbar-toggle:focus,
@@ -612,7 +612,7 @@ form label {
     font-size: 31px;
     font-weight: 700;
     margin: 20px 0 20px 0;
-    color: #F2A30F
+    color: red
 }
 
 .Home-banner .banner-descriptions h2 {
@@ -640,7 +640,7 @@ form label {
     background-color: #fff;
     box-shadow: 0 3px 19.74px 1.26px rgba(0, 0, 0, .11);
     /* border-radius: 9px 9px 0 0; */
-    /* border-bottom: 3px solid#F2A30F; */
+    /* border-bottom: 3px solidred; */
     height: auto;
     overflow: auto;
 }
@@ -652,7 +652,7 @@ form label {
 }
 
 .news-wrapper h2:hover {
-    color: #F2A30F
+    color: red
 }
 
 .news-body {
@@ -699,7 +699,7 @@ form label {
     background-position: -22% 100%;
     background-size: contain;
     background-repeat: no-repeat;
-    border-bottom: 2px solid#F2A30F;
+    border-bottom: 2px solidred;
     border-radius: 9px 9px 0 0;
     height: 240px;
 }
@@ -717,7 +717,7 @@ form label {
 .news-content .media-body span i {
     font-size: 12px;
     color: #1d1919;
-    background: #F2A30F;
+    background: red;
     border-radius: 100%;
     padding: 3px 4px;
     text-align: center;
@@ -731,7 +731,7 @@ form label {
 .news-content .read-more-news {
     background: #fff;
     color: #3098F2;
-    border: 2px solid#F2A30F;
+    border: 2px solidred;
     font-size: 12px;
     border-radius: 9px;
     display: inline-block;
@@ -743,7 +743,7 @@ form label {
 }
 
 .news-content .read-more-news:hover {
-    background: #F2A30F;
+    background: red;
     color: #fff;
     font-size: 12px;
     border-radius: 9px;
@@ -774,7 +774,7 @@ form label {
 }
 
 .news-content .share-news:hover {
-    background: #F2A30F;
+    background: red;
     color: #fff;
     font-size: 12px;
     border-radius: 9px;
@@ -812,7 +812,7 @@ form label {
     height: auto;
     box-shadow: 0 3px 19.74px 1.26px rgba(0, 0, 0, .11);
     /* border-radius: 9px 9px 0 0; */
-    /* border-bottom: 3px solid#F2A30F; */
+    /* border-bottom: 3px solidred; */
     margin-top: 50px;
     overflow: auto;
 }
@@ -824,7 +824,7 @@ form label {
 }
 
 .events-wrapper h2:hover {
-    color: #F2A30F
+    color: red
 }
 
 .events-wrapper .media-object {
@@ -849,7 +849,7 @@ form label {
     background-color: #fff;
     box-shadow: 0 3px 19.74px 1.26px rgba(0, 0, 0, .11);
     border-radius: 9px 9px 0 0;
-    border-bottom: 3px solid#F2A30F
+    border-bottom: 3px solidred
 }
 
 .media-wrapper audio {
@@ -873,7 +873,7 @@ form label {
     background-color: #fff;
     box-shadow: 0 3px 19.74px 1.26px rgba(0, 0, 0, .11);
     border-radius: 9px 9px 0 0;
-    border-bottom: 3px solid#F2A30F
+    border-bottom: 3px solidred
 }
 
 .album-wrapper img {
@@ -893,7 +893,7 @@ form label {
     background-color: #fff;
     box-shadow: 0 3px 19.74px 1.26px rgba(0, 0, 0, .11);
     border-radius: 9px 9px 0 0;
-    border-bottom: 3px solid#F2A30F
+    border-bottom: 3px solidred
 }
 
 .Voting-wrapper-content {
@@ -908,7 +908,7 @@ form label {
     background-position: -26% 100%;
     background-size: contain;
     background-repeat: no-repeat;
-    border-bottom: 2px solid#F2A30F;
+    border-bottom: 2px solidred;
     border-radius: 9px 9px 0 0;
 }
 
@@ -959,8 +959,8 @@ form label {
 }
 
 .events-content .read-more-news:hover {
-    background: #F2A30F;
-    border: 2px solid#F2A30F;
+    background: red;
+    border: 2px solidred;
     color: #fff;
     font-size: 12px;
     border-radius: 9px;
@@ -978,7 +978,7 @@ form label {
 }
 
 .events-content .share-news {
-    background: #F2A30F;
+    background: red;
     color: #fff;
     font-size: 12px;
     border-radius: 9px;
@@ -1042,7 +1042,7 @@ form label {
 
 .tender-content-area .thumbnail {
     padding: 14px;
-    border-bottom: 3px solid #F2A30F;
+    border-bottom: 3px solid red;
     padding: 15px;
     box-shadow: 0 3px 19.74px 1.26px #2d2b1940;
     border-radius: 9px 9px 0 0;
@@ -1089,10 +1089,10 @@ form label {
     border-radius: 100%;
     padding: 3px 3px;
     text-align: center;
-    color: #F2A30F;
+    color: red;
     width: 22px;
     height: 22px;
-    border: 2px solid#F2A30F;
+    border: 2px solidred;
     font-size: 12px;
     margin-left: 5px
 }
@@ -1100,7 +1100,7 @@ form label {
 .tender-content-area .thumbnail .card-footer .yellow-btn {
     width: auto;
     height: auto;
-    background: #F2A30F;
+    background: red;
     color: #fff;
     font-size: 12px;
     border-radius: 9px;
@@ -1115,7 +1115,7 @@ form label {
 .tender-content-area .thumbnail .card-footer .yellow-btn:hover {
     width: auto;
     height: auto;
-    background: #F2A30F;
+    background: red;
     color: #fff;
     font-size: 12px;
     border-radius: 9px;
@@ -1179,7 +1179,7 @@ form label {
     width: 50%;
     color: #1d1919;
     background: 0 0;
-    border: 1px solid#F2A30F;
+    border: 1px solidred;
     border-top: 0;
     border-right: 0;
     border-left: 0;
@@ -1192,7 +1192,7 @@ form label {
 }
 
 .pray-times-content label {
-    color: #F2A30F;
+    color: red;
     font-weight: 700;
     font-size: 15px
 }
@@ -1207,7 +1207,7 @@ form label {
     padding: 20px;
     box-shadow: 0 3px 19.74px 1.26px rgba(0, 0, 0, .11);
     border-radius: 9px 9px 0 0;
-    border-bottom: 5px solid#F2A30F;
+    border-bottom: 5px solidred;
     height: 200px;
     margin-bottom: 20px;
 }
@@ -1215,7 +1215,7 @@ form label {
 .widgets .ar-widgets .thumbnail {
     background-color: #3098F2;
     padding: 10px;
-    box-shadow: 0 3px 19.74px 1.26px#F2A30F40;
+    box-shadow: 0 3px 19.74px 1.26pxred40;
     border-radius: 9px 9px 0 0;
     border-bottom: 3px solid #3098F2;
     height: 155px;
@@ -1235,7 +1235,7 @@ form label {
     text-align: center;
     transition: all .5s ease;
     margin-bottom: 10px;
-    border: 3px solid#F2A30F
+    border: 3px solidred
 }
 
 .widgets .ar-widgets .thumbnail .caption img {
@@ -1261,7 +1261,7 @@ form label {
     background-color: #ddd;
     padding: 10px;
     box-shadow: 0 3px 19.74px 1.26px #3098F2;
-    border-bottom: 3px solid#F2A30F;
+    border-bottom: 3px solidred;
     height: 239px;
     /* width        : 100px; */
     margin-left: 10px;
@@ -1329,7 +1329,7 @@ span {
 }
 
 .widgets .events h5 {
-    color: #F2A30F;
+    color: red;
     font-size: 20px;
     margin-bottom: 20px
 }
@@ -1340,20 +1340,20 @@ span {
     height: 40px;
     background-color: #fff;
     text-align: center;
-    color: #F2A30F;
+    color: red;
     padding: 10px;
     border-radius: 9px;
     box-shadow: 0 3px 19.74px -4.74px rgba(0, 0, 0, .1);
     font-family: 'Hacen Tunisia Lt Regular';
     font-size: 13px;
-    border: 1px solid#F2A30F
+    border: 1px solidred
 }
 
 .sm-tellow-btn,
 .sm-tellow-btn:hover {
     width: auto;
     height: 40px;
-    background-color: #F2A30F;
+    background-color: red;
     text-align: center;
     color: #fff;
     padding: 10px;
@@ -1379,7 +1379,7 @@ span {
 .sm-green-btn:hover {
     width: auto;
     height: 40px;
-    background-color: #F2A30F;
+    background-color: red;
     text-align: center;
     color: #fff;
     padding: 10px;
@@ -1413,7 +1413,7 @@ h3 {
 }
 
 .gallery-slider .releg-gallery h3 {
-    background: #F2A30F;
+    background: red;
     display: inline-block;
     padding: 10px 20px
 }
@@ -1429,7 +1429,7 @@ h3 {
     width: 12px;
     height: 12px;
     margin: 0;
-    background-color: #F2A30F;
+    background-color: red;
     border: 0
 }
 
@@ -1449,7 +1449,7 @@ h3 {
 
 .contact h3 {
     font-weight: 700;
-    color: #F2A30F;
+    color: red;
     font-size: 20px
 }
 
@@ -1469,8 +1469,8 @@ footer {
 }
 
 footer h3 {
-    color: #F2A30F;
-    /* border-bottom: 1px solid#F2A30F; */
+    color: red;
+    /* border-bottom: 1px solidred; */
     padding-bottom: 10px;
 }
 
@@ -1482,7 +1482,7 @@ footer .footer-media p {
 
 footer .footer-media-date p {
     font-size: 12px;
-    color: #F2A30F
+    color: red
 }
 
 footer .footer-links ul li a {
@@ -1496,7 +1496,7 @@ footer .footer-links ul li a {
 footer .footer-links li a:hover {
     position: relative;
     display: block;
-    color: #F2A30F;
+    color: red;
     margin-bottom: 10px;
     padding: 0 0 0 12px
 }
@@ -1533,7 +1533,7 @@ footer .footer-links li a {
 }
 
 .footer-bottom {
-    background-color: #6a5caf;
+    background-color: #00c1ff;
     padding: 17px 0;
     font-family: 'Hacen Tunisia Lt Regular';
 }
@@ -1579,7 +1579,7 @@ footer .footer-links li a {
     margin: 0;
     border-radius: 0;
     padding: 20px 0;
-    background-color: #6a5caf;
+    background-color: #00c1ff;
 }
 
 .page-bread ol li {
@@ -1608,7 +1608,7 @@ footer .footer-links li a {
 .right-sidebar .widget {
     padding: 20px;
     padding: 20px;
-    border: 2px solid#F2A30F;
+    border: 2px solidred;
     margin-top: 15px;
     background-color: #fff;
     box-shadow: 0 3px 19.74px 1.26px rgba(0, 0, 0, .11)
@@ -1651,7 +1651,7 @@ footer .footer-links li a {
 }
 
 .right-sidebar .thumbnail-widget .thumb-content a:hover {
-    color: #F2A30F
+    color: red
 }
 
 .right-sidebar .thumbnail-widget a {
@@ -1694,13 +1694,13 @@ footer .footer-links li a {
 .search-btn {
     background-color: #3098F2;
     color: #fff;
-    border: 1px solid#F2A30F
+    border: 1px solidred
 }
 
 .search-btn:hover {
-    background-color: #F2A30F;
+    background-color: red;
     color: #fff;
-    border: 1px solid#F2A30F
+    border: 1px solidred
 }
 
 .news-content-area img {
@@ -1744,7 +1744,7 @@ footer .footer-links li a {
     text-transform: uppercase;
     top: 1px;
     cursor: pointer;
-    border-bottom: 2px solid#F2A30F
+    border-bottom: 2px solidred
 }
 
 .cat {
@@ -1766,7 +1766,7 @@ footer .footer-links li a {
 }
 
 .pdf {
-    background-color: #F2A30F3b;
+    background-color: red3b;
     padding: 10px;
     text-align: center;
     margin-bottom: 10px;
@@ -1784,7 +1784,7 @@ footer .footer-links li a {
 
 .admin-content-area .thumbnail {
     padding: 14px;
-    border-bottom: 3px solid #F2A30F;
+    border-bottom: 3px solid red;
     padding: 15px;
     box-shadow: 0 3px 19.74px 1.26px #2d2b1940;
     border-radius: 9px 9px 0 0;
@@ -1801,12 +1801,12 @@ footer .footer-links li a {
     border-radius: 100%;
     padding: 3px 6px;
     text-align: center;
-    color: #F2A30F;
+    color: red;
     width: 30px;
     height: 30px;
     line-height: 18px;
     font-size: 16px;
-    border: 2px solid#F2A30F;
+    border: 2px solidred;
     margin-left: 10px;
 }
 
@@ -1833,7 +1833,7 @@ footer .footer-links li a {
     padding: 25px 20px;
     position: relative;
     background: #fff;
-    border-bottom: 3px solid#F2A30F;
+    border-bottom: 3px solidred;
     background-color: #3098F2;
     padding: 15px;
     box-shadow: -7px 8px 20px 0px #a7a7a740;
@@ -1857,7 +1857,7 @@ footer .footer-links li a {
 }
 
 .related-content a {
-    color: #F2A30F;
+    color: red;
     display: inline-block;
     float: left;
     font-size: 30px;
@@ -2092,15 +2092,19 @@ footer .footer-links li a {
     .chartjs-caption {
         font-size: 1.05rem
     }
+
     .chartjs-title::before {
         content: ''
     }
+
     .chartjs-links a {
         flex-direction: column
     }
+
     .chartjs-links .fa {
         margin: 0
     }
+
     .samples-category {
         width: 100%
     }
@@ -2148,7 +2152,7 @@ footer .footer-links li a {
     padding: 15px;
     box-shadow: 0px 3px 19.74px 1.26px #2d2b1940;
     border-radius: 9px 9px 0 0;
-    border-bottom: 2px solid#F2A30F;
+    border-bottom: 2px solidred;
     margin-bottom: 20px;
     /*background-image: url(../img/Bkg/zitouna-bkg.png);*/
     background-size: contain;
@@ -2183,7 +2187,7 @@ footer .footer-links li a {
 }
 
 .monument-content-area .card-footer .yellow-btn:hover {
-    background: #F2A30F;
+    background: red;
     color: white;
 }
 
@@ -2192,12 +2196,12 @@ footer .footer-links li a {
     border-radius: 100%;
     padding: 3px 6px;
     text-align: center;
-    color: #F2A30F;
+    color: red;
     width: 30px;
     height: 30px;
     line-height: 18px;
     font-size: 16px;
-    border: 2px solid#F2A30F;
+    border: 2px solidred;
     margin-left: 10px;
 }
 
@@ -2219,31 +2223,31 @@ footer .footer-links li a {
 }
 
 .contact-content-area .contact-info i {
-    /*background:#F2A30F;*/
+    /*background:red;*/
     border-radius: 100%;
     padding: 3px 6px;
     text-align: center;
-    color: #F2A30F;
+    color: red;
     width: 30px;
     height: 30px;
     line-height: 18px;
     font-size: 30px;
-    /* border    : 2px solid#F2A30F; */
+    /* border    : 2px solidred; */
     margin-left: 10px;
     color: white;
 }
 
 .contact-content-area i {
-    background: #F2A30F;
+    background: red;
     /* border-radius: 100%; */
     padding: 6px 3px;
     text-align: center;
-    color: #F2A30F;
+    color: red;
     width: 30px;
     height: 30px;
     line-height: 15px;
     font-size: 16px;
-    border: 2px solid#F2A30F;
+    border: 2px solidred;
     margin-left: 10px;
     color: white;
 }
@@ -2262,7 +2266,7 @@ footer .footer-links li a {
     background-color: #ffffff;
     box-shadow: 0px 3px 19.74px 1.26px rgba(0, 0, 0, 0.11);
     border-radius: 9px 9px 0 0;
-    border-bottom: 3px solid#F2A30F;
+    border-bottom: 3px solidred;
     /*background-image: url(../img/Bkg/wallpaper.jpg);*/
 }
 
@@ -2281,7 +2285,7 @@ footer .footer-links li a {
     -ms-transform: translateY(-13px);
     -o-transform: translateY(-13px);
     width: 70px;
-    background-color: #F2A30F;
+    background-color: red;
 }
 
 .info-icon::after {
@@ -2309,7 +2313,7 @@ footer .footer-links li a {
 .isotope-filters ul li a {
     padding: 12px 12px;
     background-color: white;
-    border: 1px solid #F2A30F;
+    border: 1px solid red;
     text-transform: uppercase;
     cursor: pointer;
 }
@@ -2374,7 +2378,7 @@ footer .footer-links li a {
 
 .portfolio-filter a.active,
 .portfolio-filter a:hover {
-    color: #F2A30F;
+    color: red;
 }
 
 @media only screen and (max-width: 479px) {
@@ -2392,16 +2396,16 @@ footer .footer-links li a {
 /* -------- Portfolio Isotop Gallery ---------- */
 
 .gallery-content-area i {
-    background: #F2A30F;
+    background: red;
     border-radius: 100%;
     padding: 6px 3px;
     text-align: center;
-    color: #F2A30F;
+    color: red;
     width: 30px;
     height: 30px;
     line-height: 15px;
     font-size: 16px;
-    border: 2px solid#F2A30F;
+    border: 2px solidred;
     margin-left: 10px;
     color: white;
     text-align: center;
@@ -2580,6 +2584,7 @@ footer .footer-links li a {
     .gallery-isotope .gallery-item {
         width: 33.333% !important;
     }
+
     .gallery-isotope .gallery-item.wide {
         width: 66.6667% !important;
     }
@@ -2589,6 +2594,7 @@ footer .footer-links li a {
     .gallery-isotope .gallery-item {
         width: 50% !important;
     }
+
     .gallery-isotope .gallery-item.wide {
         width: 100% !important;
     }
@@ -2598,6 +2604,7 @@ footer .footer-links li a {
     .gallery-isotope .gallery-item {
         width: 100% !important;
     }
+
     .gallery-isotope .gallery-item.wide {
         width: 100% !important;
     }
@@ -2886,10 +2893,10 @@ html[xmlns] .flexslider .slides {
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
     border-radius: 4px;
-    -webkit-box-shadow: ''0 1px 4px rgba(0, 0, 0, 0.2);
-    -moz-box-shadow: ''0 1px 4px rgba(0, 0, 0, 0.2);
-    -o-box-shadow: ''0 1px 4px rgba(0, 0, 0, 0.2);
-    box-shadow: ''0 1px 4px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: '' 0 1px 4px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: '' 0 1px 4px rgba(0, 0, 0, 0.2);
+    -o-box-shadow: '' 0 1px 4px rgba(0, 0, 0, 0.2);
+    box-shadow: '' 0 1px 4px rgba(0, 0, 0, 0.2);
 }
 
 .flexslider .slides {
@@ -3114,6 +3121,7 @@ html[xmlns] .flexslider .slides {
         opacity: 1;
         left: 10px;
     }
+
     .flex-direction-nav .flex-next {
         opacity: 1;
         right: 10px;
@@ -3576,22 +3584,27 @@ img.mfp-img {
 
 @media screen and (max-width: 800px) and (orientation: landscape),
 screen and (max-height: 300px) {
+
     /*** Remove all paddings around the image on small screen*/
     .mfp-img-mobile .mfp-image-holder {
         padding-left: 0;
         padding-right: 0;
     }
+
     .mfp-img-mobile img.mfp-img {
         padding: 0;
     }
+
     .mfp-img-mobile .mfp-figure:after {
         top: 0;
         bottom: 0;
     }
+
     .mfp-img-mobile .mfp-figure small {
         display: inline;
         margin-left: 5px;
     }
+
     .mfp-img-mobile .mfp-bottom-bar {
         background: rgba(0, 0, 0, 0.6);
         bottom: 0;
@@ -3603,13 +3616,16 @@ screen and (max-height: 300px) {
         -moz-box-sizing: border-box;
         box-sizing: border-box;
     }
+
     .mfp-img-mobile .mfp-bottom-bar:empty {
         padding: 0;
     }
+
     .mfp-img-mobile .mfp-counter {
         right: 5px;
         top: 3px;
     }
+
     .mfp-img-mobile .mfp-close {
         top: 0;
         right: 0;
@@ -3628,14 +3644,17 @@ screen and (max-height: 300px) {
         -webkit-transform: scale(0.75);
         transform: scale(0.75);
     }
+
     .mfp-arrow-left {
         -webkit-transform-origin: 0;
         transform-origin: 0;
     }
+
     .mfp-arrow-right {
         -webkit-transform-origin: 100%;
         transform-origin: 100%;
     }
+
     .mfp-container {
         padding-left: 6px;
         padding-right: 6px;
@@ -3677,7 +3696,7 @@ screen and (max-height: 300px) {
     padding: 10px;
     background-color: #ffffff;
     box-shadow: 0px 3px 19.74px 1.26px rgba(0, 0, 0, 0.11);
-    border-top: 2px solid #F2A30F;
+    border-top: 2px solid red;
     /*background-image: url(../img/Bkg/wallpaper.jpg);*/
 }
 
@@ -3685,7 +3704,7 @@ screen and (max-height: 300px) {
     padding: 10px;
     background-color: #ffffff;
     box-shadow: 0px 3px 19.74px 1.26px rgba(0, 0, 0, 0.11);
-    border-top: 2px solid#F2A30F;
+    border-top: 2px solidred;
     /*background-image: url(../img/Bkg/wallpaper.jpg);*/
 }
 
@@ -3713,11 +3732,11 @@ screen and (max-height: 300px) {
     cursor: default;
     background-color: #eae6cd;
     border: none;
-    /* border-bottom: 2px solid#F2A30F; */
+    /* border-bottom: 2px solidred; */
     padding: 10px;
     background-color: #ffffff;
     /* box-shadow   : 0px 3px 19.74px 1.26px rgba(0, 0, 0, 0.11); */
-    border-top: 2px solid #F2A30F;
+    border-top: 2px solid red;
     /*background-image: url(../img/Bkg/wallpaper.jpg);*/
 }
 
@@ -3795,7 +3814,7 @@ screen and (max-height: 300px) {
 
 .carousel-control:focus,
 .carousel-control:hover {
-    color: #F2A30F;
+    color: red;
     text-decoration: none;
     filter: alpha(opacity=90);
     outline: 0;
@@ -3830,7 +3849,7 @@ screen and (max-height: 300px) {
     background-color: #fff;
     box-shadow: 0 3px 19.74px 1.26px rgba(0, 0, 0, .11);
     /* border-radius: 9px 9px 0 0; */
-    /* border-bottom: 3px solid#F2A30F; */
+    /* border-bottom: 3px solidred; */
     height: 200px;
     margin-top: 20px;
 }
