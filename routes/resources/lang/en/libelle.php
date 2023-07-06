@@ -1,0 +1,80 @@
+<?php
+
+return [
+
+    /*
+    |--------------------------------------------------------------------------
+    | Pagination Language Lines
+    |--------------------------------------------------------------------------
+    |
+    | The following language lines are used by the paginator library to build
+    | the simple pagination links. You are free to change them to anything
+    | you want to customize your views to better match your application.
+    |
+    */
+    'siteName' => 'Ministry of Religious Affairs',
+    'Actualite' => 'Actualities',
+    'Evenement' => 'Events',
+    'ListActualite'=>'Actualities list',
+    'ListEvenement' => 'Events list',
+    'RaccourciRapide'=>'ٌRapid links',
+    'SearchPlaceHolder'=>'Search...',
+    'EmailPlaceHolder' => 'ُEmail...',
+    'SearchEmpty'=>'No Details found. Try to search again !',
+    'resultatRecherche' =>' search results : ',
+    'alphabetTous'=>'َAll',
+    'emptyEvent'=>'No event.',
+    'emptyPubRecherches'=>'No publications and research.',
+    'emptyActualite'=>'No actualitie.',
+    'emptyTender'=>'No call of tender.',
+    'emptyAnnuaire'=>'No much result.',
+    'ServiceEnligne'=>'Online Service',
+    'Gallerie'=>'Photos Gallery &amp; <span class="text-thm2">Web TV</span>',
+    'GallerieTV'=>'Gallerie Photos & Web TV',
+    'Tous'=>'All',
+    'FiltreGallerie'=>'Gallery',
+    'FiltreWebTv'=>'Web TV',
+    'NewsLetter'=>'Newsletter',
+    'InscrireNewsLetter'=>'Sign up',
+    'ErrorHandler'=>'Can\'t find what you need? Return Back to',
+    '401'=>'OUUPS, Unauthorized',
+    '403'=>'OUUPS, Forbidden',
+    '404'=>'OOPS, Not Found',
+    '419'=>'OUUPS, Expired',
+    '429'=>'OUUPS, Too Many Requests',
+    '500'=>'OUUPS, Internale Error',
+    '503'=>'OUUPS, Service Unavailable',
+    'DateDebutEvent'=>'Start date',
+    'DateFinEvent'=>'End date',
+    'Localisation'=>'Localisation',
+    'AppelsOffres' => 'Calls for tenders',
+    'Adresse' => 'Adress',
+    'Mobile' => 'Mobile',
+    'Telephone' => 'Phone',
+    'Fax' => 'Fax',
+    'Email' => 'Email',
+    'SiteWeb' => 'Web site',
+    'services'=>'Services',
+    'DatePublication' => 'Publishing date',
+    'DateLimiteAO' => 'Deadline',
+    'Nom'=>'Name',
+    'Institution'=>'Institution',
+    'LibelleTexteJuridiques'=>'Legal texts',
+    'dernierMaj'=>'Last update on : ',
+    'siteUtiles'=>'Important links',
+    'Copyright' => 'َAousja Municipality. © All right reserved.',
+    'PositionMap' => ' Géolocaliser ce point sur une carte',
+    'type1' => '',
+    'type2' => '',
+    'type3' => '',
+    'faq' => 'FAQ',
+    'compteCitoyen' => 'My Account',
+    'SideActualite' => 'Last News',
+    'validiteOffre' => '',
+    'PortFolioAll'=>'All',
+    'Photo'=>'Photos',
+    'video'=>'Video',
+    'Audio'=>'Audio',
+    'NomFichier' => 'File Name',
+    'lien' => 'Link',
+];

@@ -1,0 +1,3836 @@
+/*! HTML/CSS Aousja Municipality Official website  v1.0   |    powered by CDF CENTER     |        */
+
+@font-face {
+    font-family: 'Hacen Tunisia Bd Regular';
+    font-style: normal;
+    font-weight: 400;
+    src: url(../css/fonts/Hacen-Tunisia-Bd.woff) format('woff');
+    font-display: swap
+  }
+
+  @font-face {
+    font-family: 'Hacen Tunisia Lt Regular';
+    font-style: normal;
+    font-weight: 400;
+    src: url(../css/fonts/Hacen-Tunisia-Lt.woff) format('woff');
+    font-display: swap
+  }
+
+  @font-face {
+    font-family: 'Hacen Tunisia Regular';
+    font-style: normal;
+    font-weight: 400;
+    src: url(../css/fonts/Hacen-Tunisia.woff) format('woff');
+    font-display: swap
+  }
+
+  .section {
+    padding: 20px 0 20px
+  }
+
+  .motif {
+    background-image: url(../img/Bkg/wallpaper.jpg)
+  }
+
+  .bckg-grey {
+    background-color: #f7f7f7;
+  }
+
+  .g-border-b {
+    border-bottom: 1px solid #a9bfb5
+  }
+
+  .form-control {
+    border: none;
+    height: 34px;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    -webkit-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .14);
+    -moz-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .14);
+    -ms-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .14);
+    -o-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .14);
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .14);
+    /* margin-bottom     : 10px; */
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 0;
+    padding: 0;
+    font-family: Hacen Tunisia Lt Regular;
+    font-weight: 600
+  }
+
+  p {
+    font-family: Hacen Tunisia Lt Regular
+  }
+
+  .dropdown-menu {
+    padding: 12px 11px
+  }
+
+  .modal-footer,
+  .modal-header {
+    border: 0
+  }
+
+  .form-control {
+    border-radius: 0
+  }
+
+  a:focus,
+  a:hover {
+    text-decoration: none
+  }
+
+  ul {
+    margin: 0;
+    padding: 0
+  }
+
+  ul li {
+    list-style: none;
+    padding: 0;
+    margin: 0
+  }
+
+  form label {
+    color: #5d5d5d
+  }
+
+  .modal-content {
+    padding: 33px 30px
+  }
+
+  .close {
+    color: #666;
+    opacity: 1
+  }
+
+  .yellow-btn,
+  .yellow-btn:focus {
+    width: 120px;
+    height: 40px;
+    background: #F2A30F;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 9px;
+    display: inline-block;
+    padding: 12px;
+    margin: 10px;
+    text-align: center;
+    font-family: Hacen Tunisia Lt Regular;
+    font-weight: 700;
+  }
+
+  .yellow-btn:hover {
+    background: #3098F2;
+    color: #fff;
+  }
+
+  .white-btn,
+  .white-btn:focus,
+  .white-btn:hover {
+    width: auto;
+    height: 40px;
+    background: #fff;
+    color: #000;
+    border: 1px solid #F2A30F;
+    font-size: 10px;
+    border-radius: 9px;
+    padding: 12px;
+    text-align: center;
+    line-height: 0;
+    margin: 10px;
+  }
+
+  .sm-pink-btn {
+    width: 150px;
+    height: 45px;
+    background: #ff3f49;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 0;
+    display: inline-block;
+    padding: 19px;
+    text-align: center;
+    font-family: Hacen Tunisia Lt Regular;
+    font-weight: 700
+  }
+
+  .sm-pink-btn:hover {
+    width: 150px;
+    height: 45px;
+    background: #ff3f49;
+    color: #fff
+  }
+
+  .navbar .navbar-nav>li>a.sm-pink-btn,
+  .navbar .navbar-nav>li>a.sm-pink-btn:hover {
+    color: #fff;
+    background: #ff3f49
+  }
+
+  .yellow-border {
+    border-bottom: 3px solid#F2A30F !important;
+  }
+
+  .mt10 {
+    margin-top: 10px
+  }
+
+  .mt6 {
+    margin-top: 6px
+  }
+
+  .mt50 {
+    margin-top: 50px
+  }
+
+  .mt40 {
+    margin-top: 40px
+  }
+
+  .mt90 {
+    margin-top: 90px
+  }
+
+  .mt100 {
+    margin-top: 100px
+  }
+
+  .mt30 {
+    margin-top: 30px
+  }
+
+  .mt20 {
+    margin-top: 20px
+  }
+
+  .mb20 {
+    margin-bottom: 20px
+  }
+
+  .mr-20 {
+    margin-left: 20px
+  }
+
+  .mr-50 {
+    margin-left: 50px;
+  }
+
+  .pb30 {
+    padding-bottom: 30px
+  }
+
+  .pad-left-0 {
+    padding-right: 0;
+  }
+
+  .pad-right-0 {
+    padding-left: 0
+  }
+
+  .pdr {
+    padding-left: 10px
+  }
+
+  .mr10 {
+    margin-left: 10px
+  }
+
+  .white {
+    color: #fff
+  }
+
+  .blue {
+    color: #006dc8
+  }
+
+  .gris {
+    color: #666
+  }
+
+  .bleu-fn {
+    color: #4c4e70
+  }
+
+  .F-Bold {
+    font-weight: 700
+  }
+
+  .Title95 {
+    font-size: 95px
+  }
+
+  .Title24 {
+    font-size: 24px
+  }
+
+  .Ttile36 {
+    font-size: 36px
+  }
+
+  .green-title {
+    color: #4c50ce;
+    border-bottom: 2px solid;
+    padding-bottom: 10px;
+  }
+
+  .line-bottom-theme-colored-1 {
+    position: relative;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+    color: #4c50ce;
+    font-family: 'Hacen Tunisia Regular';
+    font-size: 18px;
+    font-weight: 300;
+  }
+
+  .line-bottom-theme-colored-1:after {
+    border-radius: 10px;
+    bottom: -1px;
+    content: "";
+    height: 2px;
+    left: 0;
+    position: absolute;
+    width: 50px;
+    background: #3098F2
+  }
+
+  .line-bottom-theme-colored-2 {
+    position: relative;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    color: #3098F2;
+    font-family: 'Hacen Tunisia Regular'
+  }
+
+  .line-bottom-theme-colored-2:after {
+    border-radius: 10px;
+    bottom: -1px;
+    content: "";
+    height: 3px;
+    left: 0;
+    position: absolute;
+    width: 100px;
+    background: #3098F2
+  }
+
+  .line-bottom-theme-colored-3 {
+    position: relative;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    color: #6a5caf;
+    font-family: 'Hacen Tunisia Regular';
+    font-size: 18px;
+    font-weight: 300;
+    font-size: 40px;
+    font-family: 'Hacen Tunisia Lt Regular';
+    font-weight: 500;
+  }
+
+  .line-bottom-theme-colored-3:after {
+    border-radius: 10px;
+    bottom: -1px;
+    content: "";
+    height: 3px;
+    left: 0;
+    position: absolute;
+    width: 50%;
+    background: #8b7fa8;
+  }
+
+  .width40 {
+    width: 40%;
+    margin: 30px auto
+  }
+
+  .width60 {
+    width: 60%;
+    margin: 30px auto
+  }
+
+  .small-divider {
+    width: 36px;
+    height: 3px;
+    background: #006dc8;
+    margin: 30px auto
+  }
+
+  .ml10 {
+    margin-right: 10px
+  }
+
+  #file {
+    visibility: hidden;
+    width: 1px
+  }
+
+  .input-label {
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    border: 0;
+    padding: 14px 25px;
+    font-size: 14px;
+    background: #4c4e70
+  }
+
+  .top-header {
+    background-color: #4c50ce;
+    padding: 5px 0
+  }
+
+  .top-header .top-header-links ul li {
+    display: inline-block
+  }
+
+  .top-header .top-header-links ul li a {
+    color: #fff;
+    padding-right: 20px;
+    font-family: 'Hacen Tunisia Regular';
+    font-size: 14px
+  }
+
+  .top-header .top-header-links ul li a:hover {
+    color: #F2A30F;
+  }
+
+  .top-header ul li {
+    display: inline-block
+  }
+
+  .top-header ul li a.top-header-font {
+    color: #333;
+    padding-right: 12px
+  }
+
+  .lg-fr {
+    background: #F2A30F;
+    border-radius: 100%;
+    padding: 3px 6px;
+    text-align: center;
+    color: #fff;
+    width: 28px;
+    height: 28px;
+    line-height: 20px
+  }
+
+  .lg-fr a {
+    color: #fff
+  }
+
+  .header {
+    border-bottom: 1px solid #edebeb;
+    padding: 10px 0;
+    font-family: JF-Flat-regular
+  }
+
+  .header ul li {
+    display: inline-block;
+    padding-right: 16px
+  }
+
+  .header ul li a:hover {
+    color: #ff3f49
+  }
+
+  .header ul li a {
+    color: #383838;
+    transition: all .3s
+  }
+
+  .header-social-media .fa {
+    font-size: 16px
+  }
+
+  .header-social-media i {
+    background-color: #fff;
+    border-radius: 9px;
+    position: relative;
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    transition: all .5s
+  }
+
+  .main-header {
+    padding: 5px 0;
+    font-family: 'Hacen Tunisia Lt Regular';
+    height: 110px
+  }
+
+  .main-header .navbar-brand img {
+    width: 400px
+  }
+
+  .main-header .navbar-nav>li>a {
+    color: #F2A30F
+  }
+
+  .main-header .navbar-nav>li>a:focus,
+  .main-header .navbar-nav>li>a:hover {
+    background: 100% 0
+  }
+
+  .navbar-form .form-control {
+    width: 200px;
+    display: inline-block;
+    box-sizing: border-box
+  }
+
+  .navbar {
+    border: 0;
+    background: #f7f7f7;
+    font-family: Hacen Tunisia Lt Regular;
+    border-radius: 0;
+    margin: 0
+  }
+
+  .navbar .navbar-nav>li>a {
+    font-size: 16px;
+    color: #4b4a46;
+    font-family: 'Hacen Tunisia Regular'
+  }
+
+  .navbar-default .navbar-nav>.active>a,
+  .navbar-default .navbar-nav>.active>a:focus,
+  .navbar-default .navbar-nav>.active>a:hover {
+    color: #F2A30F;
+    font-weight: 700;
+    background: 100% 0
+  }
+
+  .navbar .navbar-nav>li>a:focus,
+  .navbar .navbar-nav>li>a:hover {
+    color: #3098F2;
+  }
+
+  .navbar .navbar-brand img {
+    margin-top: -18px
+  }
+
+  .navbar-brand {
+    padding: 0
+  }
+
+  .navbar-default .navbar-nav>.open>a,
+  .navbar-default .navbar-nav>.open>a:focus,
+  .navbar-default .navbar-nav>.open>a:hover {
+    color: #F2A30F
+  }
+
+  .navbar-default .navbar-nav>.open>a,
+  .navbar-default .navbar-nav>.open>a:focus,
+  .navbar-default .navbar-nav>.open>a:hover {
+    background: 100% 0
+  }
+
+  .navbar-default .navbar-toggle .icon-bar {
+    background-color: #F2A30F
+  }
+
+  .navbar-default .navbar-toggle:focus,
+  .navbar-default .navbar-toggle:hover {
+    background: 100% 0
+  }
+
+  .navbar-default .navbar-toggle {
+    border: 0
+  }
+
+  .dropdown-menu>li>a {
+    font-size: 13px;
+    line-height: 23px;
+    transition: all .2s ease-out
+  }
+
+  .navbar-collapse {
+    border-top: 0;
+    box-shadow: none
+  }
+
+  .dropdown-menu>li>a:focus,
+  .dropdown-menu>li>a:hover {
+    color: #fff;
+    text-decoration: none;
+    background-color: #3098F2;
+  }
+
+  .carousel-control.left,
+  .carousel-control.right {
+    background-image: none;
+    opacity: 1
+  }
+
+  .carousel-control .glyphicon-chevron-left,
+  .carousel-control .glyphicon-chevron-right,
+  .carousel-control .icon-next,
+  .news-pray .carousel-control .icon-prev {
+    box-shadow: none
+  }
+
+  .Home-banner .carousel-caption {
+    top: 160px
+  }
+
+  .shadow {
+    min-width: 1000px;
+    height: 70px;
+    position: relative;
+    margin: 0 auto;
+    top: 170px;
+    background-color: #1b1a1aa8;
+    position: absolute;
+    bottom: 0;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(253, 253, 253, .6)
+  }
+
+  .Home-banner .banner-descriptions {
+    color: #fff;
+    background-color: rgba(89, 128, 13, 0);
+    font-family: 'Hacen Tunisia Lt Regular'
+  }
+
+  .Home-banner .banner-descriptions h1 {
+    font-size: 31px;
+    font-weight: 700;
+    margin: 20px 0 20px 0;
+    color: #F2A30F
+  }
+
+  .Home-banner .banner-descriptions h2 {
+    margin-bottom: 14px
+  }
+
+  .Home-banner .banner-descriptions h2 img {
+    width: 41px
+  }
+
+  .Home-banner .banner-descriptions p {
+    font-size: 13px;
+    line-height: 23px
+  }
+
+  .top-titles h2 {
+    font-size: 30px;
+    font-family: 'Hacen Tunisia Lt Regular';
+    font-weight: 500
+  }
+
+  .news-wrapper {
+    border: 1px solid #ddd;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 3px 19.74px 1.26px rgba(0, 0, 0, .11);
+    /* border-radius: 9px 9px 0 0; */
+    /* border-bottom: 3px solid#F2A30F; */
+    height: auto;
+    overflow: auto;
+  }
+
+  .news-wrapper h2 {
+    margin-bottom: 13px;
+    border-bottom: 2px solid;
+    padding-bottom: 10px
+  }
+
+  .news-wrapper h2:hover {
+    color: #F2A30F
+  }
+
+  .news-body {
+    background-color: #f9f9f9;
+    margin-top: 0
+  }
+
+  .News-content .news-title {
+    display: block;
+    /* font-size: 20px; */
+    color: #2d302e;
+    font-family: 'Hacen Tunisia Regular';
+    font-weight: 700;
+  }
+
+  .News-content .news-date {
+    font-size: 12px;
+    color: #3098F2;
+    font-family: 'Hacen Tunisia Lt Regular';
+    margin-top: 10px
+  }
+
+  .News-content p {
+    color: #666;
+    font-size: 14px;
+    line-height: 24px
+  }
+
+  .News-content img {
+    width: 100%;
+    height: 150px;
+  }
+
+  .news-content-area .news-content {
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0px 3px 19.74px 1.26px rgba(0, 0, 0, 0.11);
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-bottom: 2px solid #3098F2;
+    border-radius: 9px 9px 0 0;
+    /* background-image: url(../img/Bkg/news-01.png); */
+    background-position: 122% 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-bottom: 2px solid#F2A30F;
+    border-radius: 9px 9px 0 0;
+    height: 240px;
+  }
+
+  .news-content .media-body {
+    padding: 10px;
+    width: 600px
+  }
+
+  .news-content .media-body span {
+    font-size: 14px;
+    color: #1d1919
+  }
+
+  .news-content .media-body span i {
+    font-size: 12px;
+    color: #1d1919;
+    background: #F2A30F;
+    border-radius: 100%;
+    padding: 3px 4px;
+    text-align: center;
+    color: #fff;
+    width: 28px;
+    height: 28px;
+    line-height: 20px;
+    margin-right: 10px
+  }
+
+  .news-content .read-more-news {
+    background: #fff;
+    color: #3098F2;
+    border: 2px solid#F2A30F;
+    font-size: 12px;
+    border-radius: 9px;
+    display: inline-block;
+    padding: 12px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: Hacen Tunisia Lt Regular;
+    font-weight: 700
+  }
+
+  .news-content .read-more-news:hover {
+    background: #F2A30F;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 9px;
+    display: inline-block;
+    padding: 12px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: Hacen Tunisia Lt Regular;
+    font-weight: 700;
+    -webkit-box-shadow: 0 15px 30px rgba(0, 0, 0, .1);
+    -moz-box-shadow: 0 15px 30px rgba(0, 0, 0, .1);
+    -ms-box-shadow: 0 15px 30px rgba(0, 0, 0, .1);
+    -o-box-shadow: 0 15px 30px rgba(0, 0, 0, .1);
+    box-shadow: -1px 7px 20px 6px rgba(37, 36, 31, .17)
+  }
+
+  .news-content .share-news {
+    background: #3098F2;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 9px;
+    display: inline-block;
+    padding: 12px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: Hacen Tunisia Lt Regular;
+    font-weight: 700
+  }
+
+  .news-content .share-news:hover {
+    background: #F2A30F;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 9px;
+    display: inline-block;
+    padding: 12px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: Hacen Tunisia Lt Regular;
+    font-weight: 700;
+    -webkit-box-shadow: 0 15px 30px rgba(0, 0, 0, .1);
+    -moz-box-shadow: 0 15px 30px rgba(0, 0, 0, .1);
+    -ms-box-shadow: 0 15px 30px rgba(0, 0, 0, .1);
+    -o-box-shadow: 0 15px 30px rgba(0, 0, 0, .1);
+    box-shadow: -1px 7px 20px 6px rgba(37, 36, 31, .17)
+  }
+
+  .news-content .media-body .media-heading {
+    font-size: 24px;
+    font-family: 'Hacen Tunisia Lt Regular';
+    font-weight: 500;
+    margin-bottom: 10px
+  }
+
+  .owl-carousel-news {
+    padding-top: 20px
+  }
+
+  .events-wrapper {
+    background-color: #fff;
+  }
+
+  .events-wrapper {
+    border: 1px solid #ddd;
+    padding: 20px;
+    height: auto;
+    box-shadow: 0 3px 19.74px 1.26px rgba(0, 0, 0, .11);
+    /* border-radius: 9px 9px 0 0; */
+    /* border-bottom: 3px solid#F2A30F; */
+    margin-top: 50px;
+    overflow: auto;
+  }
+
+  .events-wrapper h2 {
+    margin-bottom: 13px;
+    border-bottom: 2px solid;
+    padding-bottom: 10px
+  }
+
+  .events-wrapper h2:hover {
+    color: #F2A30F
+  }
+
+  .events-wrapper .media-object {
+    width: 180px;
+    height: 140px;
+  }
+
+  .single-event ul li {
+    margin: 5px;
+    display: inline-block;
+  }
+
+  .single-event img {
+    width: 100%;
+    margin-bottom: 20px;
+    height: 300px
+  }
+
+  .media-wrapper {
+    border: 1px solid #ddd;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 3px 19.74px 1.26px rgba(0, 0, 0, .11);
+    border-radius: 9px 9px 0 0;
+    border-bottom: 3px solid#F2A30F
+  }
+
+  .media-wrapper audio {
+    width: 250px;
+    height: 54px
+  }
+
+  .media-wrapper video {
+    width: 250px;
+    height: 250px
+  }
+
+  .media-wrapper img {
+    height: 133px;
+  }
+
+  .album-wrapper {
+    border: 1px solid #ddd;
+    padding: 20px;
+    height: 386px;
+    background-color: #fff;
+    box-shadow: 0 3px 19.74px 1.26px rgba(0, 0, 0, .11);
+    border-radius: 9px 9px 0 0;
+    border-bottom: 3px solid#F2A30F
+  }
+
+  .album-wrapper img {
+    height: 280px
+  }
+
+  .album-wrapper p {
+    color: #666;
+    line-height: 23px;
+    margin-top: 20px
+  }
+
+  .Voting-wrapper {
+    border: 1px solid #ddd;
+    padding: 20px;
+    height: 386px;
+    background-color: #fff;
+    box-shadow: 0 3px 19.74px 1.26px rgba(0, 0, 0, .11);
+    border-radius: 9px 9px 0 0;
+    border-bottom: 3px solid#F2A30F
+  }
+
+  .Voting-wrapper-content {
+    float: left
+  }
+
+  .events-content-area .events-content {
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 3px 19.74px 1.26px rgba(0, 0, 0, .11);
+    /* background-image: url(../img/Bkg/events-bkg.png);*/
+    background-position: 126% 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-bottom: 2px solid#F2A30F;
+    border-radius: 9px 9px 0 0;
+  }
+
+  .events-content .media-body span i {
+    font-size: 12px;
+    color: #1d1919;
+    background: #3098F2;
+    border-radius: 9px 9px 9px 9px;
+    padding: 2px 2px;
+    text-align: center;
+    color: #fff;
+    width: 24px;
+    height: 24px;
+    line-height: 20px;
+    margin-right: 9px;
+  }
+
+  .events-content p {
+    margin-top: 11px;
+    color: #666;
+    font-size: 13px;
+    line-height: 24px
+  }
+
+  .events-content .media-body {
+    padding: 10px;
+    width: 600px
+  }
+
+  .events-content .media-body span {
+    font-size: 14px;
+    color: #1d1919;
+    margin-right: 5px
+  }
+
+  .events-content .read-more-news {
+    background: #3098F2;
+    color: #fff;
+    border: 2px solid #3098F2;
+    font-size: 12px;
+    border-radius: 9px;
+    display: inline-block;
+    padding: 12px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: Hacen Tunisia Lt Regular;
+    font-weight: 700
+  }
+
+  .events-content .read-more-news:hover {
+    background: #F2A30F;
+    border: 2px solid#F2A30F;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 9px;
+    display: inline-block;
+    padding: 12px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: Hacen Tunisia Lt Regular;
+    font-weight: 700;
+    -webkit-box-shadow: 0 15px 30px rgba(0, 0, 0, .1);
+    -moz-box-shadow: 0 15px 30px rgba(0, 0, 0, .1);
+    -ms-box-shadow: 0 15px 30px rgba(0, 0, 0, .1);
+    -o-box-shadow: 0 15px 30px rgba(0, 0, 0, .1);
+    box-shadow: -1px 7px 20px 6px rgba(37, 36, 31, .17)
+  }
+
+  .events-content .share-news {
+    background: #F2A30F;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 9px;
+    display: inline-block;
+    padding: 12px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: Hacen Tunisia Lt Regular;
+    font-weight: 700
+  }
+
+  .events-content .share-news:hover {
+    background: #3098F2;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 9px;
+    display: inline-block;
+    padding: 12px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: Hacen Tunisia Lt Regular;
+    font-weight: 700;
+    -webkit-box-shadow: 0 15px 30px rgba(0, 0, 0, .1);
+    -moz-box-shadow: 0 15px 30px rgba(0, 0, 0, .1);
+    -ms-box-shadow: 0 15px 30px rgba(0, 0, 0, .1);
+    -o-box-shadow: 0 15px 30px rgba(0, 0, 0, .1);
+    box-shadow: -1px 7px 20px 6px rgba(37, 36, 31, .17)
+  }
+
+  .events-content .media-body .media-heading {
+    font-size: 24px;
+    font-family: 'Hacen Tunisia Lt Regular';
+    font-weight: 500;
+    margin-bottom: 10px
+  }
+
+  .events-content .single-event img {
+    width: 100%;
+    margin-bottom: 20px;
+    height: 300px
+  }
+
+  .single-event .event-time {
+    margin-top: 10px;
+    margin-bottom: 10px
+  }
+
+  .single-event i {
+    font-size: 12px;
+    color: #1d1919;
+    background: #3098F2;
+    border-radius: 9px 9px 9px 9px;
+    padding: 2px 2px;
+    text-align: center;
+    color: #fff;
+    width: 24px;
+    height: 24px;
+    line-height: 20px;
+    margin-right: 9px;
+  }
+
+  .tender-content-area .thumbnail {
+    padding: 14px;
+    border-bottom: 3px solid #F2A30F;
+    padding: 15px;
+    box-shadow: 0 3px 19.74px 1.26px #2d2b1940;
+    border-radius: 9px 9px 0 0;
+    border-bottom: 2px solid #3098F2;
+    height: 285px;
+    margin-top: 20px;
+  }
+
+  .tender-content-area .thumbnail .img-wrap {
+    padding: 10px 0 10px 110px;
+    margin-bottom: 15px;
+    position: relative;
+  }
+
+  .tender-content-area .thumbnail .img-wrap img {
+    background: #ffffff;
+    border: 2px solid #3098F2;
+    left: 1px;
+    padding: 2px;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    /* border-radius: 90% 90px 0 0; */
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+
+  .tender-content-area .thumbnail .caption .tender-title {
+    font-size: 20px;
+    font-family: 'Hacen Tunisia Lt Regular';
+    font-weight: 600;
+    margin: 10px 0 10px 0
+  }
+
+  .tender-content-area .thumbnail .img-wrap i {
+    background: #fff;
+    border-radius: 100%;
+    padding: 3px 3px;
+    text-align: center;
+    color: #F2A30F;
+    width: 22px;
+    height: 22px;
+    border: 2px solid#F2A30F;
+    font-size: 12px;
+    margin-right: 5px
+  }
+
+  .tender-content-area .thumbnail .card-footer .yellow-btn {
+    width: auto;
+    height: auto;
+    background: #F2A30F;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 9px;
+    display: inline-block;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: Hacen Tunisia Lt Regular;
+    font-weight: 700
+  }
+
+  .tender-content-area .thumbnail .card-footer .yellow-btn:hover {
+    width: auto;
+    height: auto;
+    background: #F2A30F;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 9px;
+    display: inline-block;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: Hacen Tunisia Lt Regular;
+    font-weight: 700
+  }
+
+  .single-tender i {
+    color: #1d1919;
+    background: #3098F2;
+    border-radius: 9px;
+    padding: 2px 2px;
+    text-align: center;
+    color: #fff;
+    width: 24px;
+    height: 24px;
+    line-height: 20px;
+    margin-right: 9px;
+    font-size: 12px
+  }
+
+  .single-tender img {
+    width: 100%;
+    margin-bottom: 20px;
+    height: 300px
+  }
+
+  .single-tender ul li {
+    margin: 5px;
+    display: inline-block;
+  }
+
+  .tender-time {
+    margin-bottom: 10px
+  }
+
+  .pray-times-BKG {
+    /*background-image: url(../img/Bkg/pray-bkg.png);*/
+    background-position: center center;
+    background-size: cover
+  }
+
+  .pray-times .pray-times-content {
+    font-family: JF-Flat-regular;
+    color: #111712;
+    border-radius: 9px
+  }
+
+  .pray-times .pray-times-content h5 {
+    color: #292727;
+    font-size: 18px;
+    font-weight: 200
+  }
+
+  .pray-times .pray-times-content .form-control {
+    display: block;
+    width: 50%;
+    color: #1d1919;
+    background: 100% 0;
+    border: 1px solid#F2A30F;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-radius: 0
+  }
+
+  .tm {
+    font-weight: 700;
+    font-size: 17px
+  }
+
+  .pray-times-content label {
+    color: #F2A30F;
+    font-weight: 700;
+    font-size: 15px
+  }
+
+  .widgets {
+    padding-top: 50px;
+    background-color: #fbfbfb;
+  }
+
+  .widgets .white-box {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 3px 19.74px 1.26px rgba(0, 0, 0, .11);
+    border-radius: 9px 9px 0 0;
+    border-bottom: 5px solid#F2A30F;
+    height: 200px;
+    margin-bottom: 20px;
+  }
+
+  .widgets .ar-widgets .thumbnail {
+    background-color: #3098F2;
+    padding: 10px;
+    box-shadow: 0 3px 19.74px 1.26px#F2A30F40;
+    border-radius: 9px 9px 0 0;
+    border-bottom: 3px solid #3098F2;
+    height: 155px;
+    margin-bottom: 20px;
+    width: 170px;
+    /*background-image: url(../img/Bkg/wallpaper.jpg)*/
+  }
+
+  .widgets .ar-widgets .thumbnail .caption i {
+    color: #3098F2;
+    border-radius: 9px;
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 35px;
+    text-align: center;
+    transition: all .5s ease;
+    margin-bottom: 10px;
+    border: 3px solid#F2A30F
+  }
+
+  .widgets .ar-widgets .thumbnail .caption img {
+    height: 50px;
+    width: 50px;
+  }
+
+  .widgets .ar-widgets .thumbnail .caption {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center
+  }
+
+  .widgets .ar-widgets .thumbnail .caption h5 {
+    font-size: 20px;
+    font-family: 'Hacen Tunisia Lt Regular';
+    font-weight: 500;
+    color: #3098F2;
+    padding-bottom: 10px
+  }
+
+  .widgets-header .banner-widgets .thumbnail {
+    background-color: #ddd;
+    padding: 10px;
+    box-shadow: 0 3px 19.74px 1.26px #3098F2;
+    border-bottom: 3px solid#F2A30F;
+    height: 239px;
+    /* width        : 100px; */
+    margin-right: 10px;
+    display: table;
+    border-radius: 0;
+  }
+
+  .widgets-header .banner-widgets .thumbnail .caption {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center
+  }
+
+  .widgets-header .banner-widgets .thumbnail .caption i {
+    background-color: #3098F2;
+    color: #fff;
+    border-radius: 9px;
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    transition: all .5s ease;
+    margin-bottom: 10px
+  }
+
+  .widgets-header .banner-widgets .thumbnail a {
+    color: #215b36;
+  }
+
+  .widgets .widget-title {
+    font-size: 30px;
+    font-family: 'Hacen Tunisia Lt Regular';
+    font-weight: 500
+  }
+
+  .widget-content h1,
+  a,
+  h2,
+  h3,
+  h4,
+  h5,
+  p,
+  span {
+    font-family: 'Hacen Tunisia Regular'
+  }
+
+  .widgets .voting h5 {
+    font-family: JF-Flat-regular;
+    color: #333;
+    line-height: 22px
+  }
+
+  .widgets .voting-options {
+    font-family: JF-Flat-regular;
+    color: #333
+  }
+
+  .widgets .events p {
+    color: #222;
+    font-size: 15px;
+    line-height: 33px;
+    font-family: JF-Flat-regular
+  }
+
+  .widgets .events h5 {
+    color: #F2A30F;
+    font-size: 20px;
+    margin-bottom: 20px
+  }
+
+  .sm-white-btn,
+  .sm-white-btn:hover {
+    width: auto;
+    height: 40px;
+    background-color: #fff;
+    text-align: center;
+    color: #F2A30F;
+    padding: 10px;
+    border-radius: 9px;
+    box-shadow: 0 3px 19.74px -4.74px rgba(0, 0, 0, .1);
+    font-family: 'Hacen Tunisia Lt Regular';
+    font-size: 13px;
+    border: 1px solid#F2A30F
+  }
+
+  .sm-tellow-btn,
+  .sm-tellow-btn:hover {
+    width: auto;
+    height: 40px;
+    background-color: #F2A30F;
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+    border-radius: 9px;
+    box-shadow: 0 3px 19.74px -4.74px rgba(0, 0, 0, .1);
+    font-family: 'Hacen Tunisia Lt Regular';
+    font-size: 13px
+  }
+
+  .sm-green-btn {
+    width: auto;
+    height: 40px;
+    background-color: #3098F2;
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+    border-radius: 9px;
+    box-shadow: 0 3px 19.74px -4.74px rgba(0, 0, 0, .1);
+    font-family: 'Hacen Tunisia Lt Regular';
+    font-size: 13px;
+  }
+
+  .sm-green-btn:hover {
+    width: auto;
+    height: 40px;
+    background-color: #F2A30F;
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+    border-radius: 9px;
+    box-shadow: 0 3px 19.74px -4.74px rgba(0, 0, 0, .1);
+    font-family: 'Hacen Tunisia Lt Regular';
+    font-size: 13px
+  }
+
+  .widgets .Pilgrimage h4 {
+    margin-top: 40px;
+    font-size: 18px;
+    line-height: 30px;
+    font-family: JF-Flat-regular
+  }
+
+  .disp-block {
+    display: block
+  }
+
+  .disp-In-block {
+    display: inline-block
+  }
+
+  .gallery-slider .releg-gallery h1,
+  h2,
+  h3 {
+    font-size: 30px;
+    font-family: 'Hacen Tunisia Lt Regular';
+    font-weight: 500
+  }
+
+  .gallery-slider .releg-gallery h3 {
+    background: #F2A30F;
+    display: inline-block;
+    padding: 10px 20px
+  }
+
+  .gallery-slider .carousel-caption {
+    -webkit-text-shadow: none;
+    -moz-text-shadow: none;
+    text-shadow: none;
+    bottom: 160px
+  }
+
+  .gallery-slider .carousel-indicators li.active {
+    width: 12px;
+    height: 12px;
+    margin: 0;
+    background-color: #F2A30F;
+    border: 0
+  }
+
+  .gallery-slider .carousel-indicators li {
+    width: 12px;
+    height: 12px;
+    margin: 0;
+    background-color: #fff;
+    border: 0
+  }
+
+  .gallery-slider p {
+    font-size: 16px;
+    line-height: 23px;
+    font-weight: 700
+  }
+
+  .contact h3 {
+    font-weight: 700;
+    color: #F2A30F;
+    font-size: 20px
+  }
+
+  .contact p {
+    color: #1d1f24;
+    font-size: 14px
+  }
+
+  footer {
+    background: #232222;
+    padding: 20px 0;
+    color: #fff;
+    font-family: 'Hacen Tunisia Lt Regular';
+    /* background-image: url(../img/Bkg/mosque-bkg.png); */
+    background-repeat: no-repeat;
+    background-position: bottom;
+  }
+
+  footer h3 {
+    color: #F2A30F;
+    /* border-bottom: 1px solid#F2A30F; */
+    padding-bottom: 10px;
+  }
+
+  footer .footer-media p {
+    font-size: 14px;
+    line-height: 23px;
+    color: #f3f3f3
+  }
+
+  footer .footer-media-date p {
+    font-size: 12px;
+    color: #F2A30F
+  }
+
+  footer .footer-links ul li a {
+    position: relative;
+    display: block;
+    color: #fff;
+    margin-bottom: 10px;
+    padding: 0 12px 0 0
+  }
+
+  footer .footer-links li a:hover {
+    position: relative;
+    display: block;
+    color: #F2A30F;
+    margin-bottom: 10px;
+    padding: 0 12px 0 0
+  }
+
+  footer .footer-links li {
+    display: block;
+    margin-top: 10px
+  }
+
+  footer .footer-links li a {
+    color: #fff
+  }
+
+  .footer-social-media li {
+    display: inline-block;
+    padding-right: 5px
+  }
+
+  .footer-social-media li a {
+    color: #666;
+    font-size: 17px
+  }
+
+  .footer-social-media i {
+    background-color: #fff;
+    border-radius: 9px;
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    transition: all .5s ease
+  }
+
+  .footer-bottom {
+    background-color: #6a5caf;
+    padding: 17px 0;
+    font-family: 'Hacen Tunisia Lt Regular';
+  }
+
+  .footer-bottom .copyright {
+    color: #fff;
+    font-size: 14px
+  }
+
+  .footer-bottom .designer-copyright {
+    color: #868484;
+    font-size: 12px;
+    margin-top: 10px
+  }
+
+  .footer-bottom .designer-copyright a {
+    color: #eb9f32
+  }
+
+  .fa-facebook {
+    color: #1a58e4
+  }
+
+  .fa-twitter {
+    color: #32b5eb
+  }
+
+  .fa-youtube {
+    color: red
+  }
+
+  .fa-rss {
+    color: #eb9f32
+  }
+
+  .page-bread .breadcrumb {
+    /* background-image: url(../img/Bkg/breadcrumb_bg.png); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 80px;
+    color: #fff;
+    margin: 0;
+    border-radius: 0;
+    padding: 20px 0;
+    background-color: #6a5caf;
+  }
+
+  .page-bread ol li {
+    display: inline-block;
+    padding: 9px 7px
+  }
+
+  .page-bread ol li a {
+    color: #fff
+  }
+
+  .page-bread ol li a.active {
+    /* font-weight: 700; */
+    color: #fbbf4e;
+  }
+
+  .right-sidebar {
+    padding: 20px;
+    height: 870px
+  }
+
+  .right-sidebar .sidebar-title {
+    margin-bottom: 20px
+  }
+
+  .right-sidebar .widget {
+    padding: 20px;
+    padding: 20px;
+    border: 2px solid#F2A30F;
+    margin-top: 15px;
+    background-color: #fff;
+    box-shadow: 0 3px 19.74px 1.26px rgba(0, 0, 0, .11)
+  }
+
+  .right-sidebar .widget-title {
+    margin-bottom: 20px
+  }
+
+  .right-sidebar ul {
+    list-style: none outside none;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 0
+  }
+
+  .right-sidebar .thumbnail-widget li {
+    display: table;
+    padding-bottom: 20px
+  }
+
+  .right-sidebar .thumbnail-widget .thumb-wrap {
+    margin-right: 20px;
+    display: inline-block
+  }
+
+  .right-sidebar .thumbnail-widget .thumb-wrap img {
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+  }
+
+  .right-sidebar .thumbnail-widget .thumb-content {
+    display: table-cell;
+    vertical-align: middle
+  }
+
+  .right-sidebar .thumbnail-widget .thumb-content a {
+    color: #1d1919
+  }
+
+  .right-sidebar .thumbnail-widget .thumb-content a:hover {
+    color: #F2A30F
+  }
+
+  .right-sidebar .thumbnail-widget a {
+    display: block
+  }
+
+  .right-sidebar .thumbnail-widget span {
+    font-size: 12px;
+    font-style: italic;
+    color: #7f7f7f
+  }
+
+  .main-content {
+    padding: 20px
+  }
+
+  .news-sm li {
+    display: inline-block;
+    padding-left: 14px
+  }
+
+  .news-search-area {
+    padding: 20px 50px;
+    box-shadow: 0 3px 19.74px 1.26px #2d2b1940;
+    border-radius: 9px 9px 0 0;
+    margin-bottom: 20px;
+    width: auto;
+    display: table
+  }
+
+  .search {
+    display: table-cell;
+    vertical-align: middle
+  }
+
+  .search .form-group {
+    margin-bottom: 0
+  }
+
+  .search-btn {
+    background-color: #3098F2;
+    color: #fff;
+    border: 1px solid#F2A30F
+  }
+
+  .search-btn:hover {
+    background-color: #F2A30F;
+    color: #fff;
+    border: 1px solid#F2A30F
+  }
+
+  .news-content-area img {
+    width: 160px
+  }
+
+  .news-content-area p {
+    margin-top: 2px;
+    color: #666;
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .news-content-area span {
+    margin-top: 10px;
+    color: #888;
+    font-size: 14px
+  }
+
+  .media-area {
+    padding: 10px
+  }
+
+  .news-carousel .carousel-inner .item img {
+    height: 400px
+  }
+
+  .single-news img {
+    width: 100%;
+    margin-bottom: 20px;
+    height: 300px
+  }
+
+  .single-news .cat {
+    color: #fff;
+    font-weight: 400;
+    right: 10px;
+    padding: 10px 15px;
+    font-size: 12px;
+    position: absolute;
+    text-transform: uppercase;
+    top: 1px;
+    cursor: pointer;
+    border-bottom: 2px solid#F2A30F
+  }
+
+  .cat {
+    background: #3098F2;
+    padding: 3px 6px 2px;
+    color: #fff;
+    font-size: 11px;
+    margin: 0 3px;
+    display: inline-block
+  }
+
+  .single-news .cat i {
+    font-size: 14px
+  }
+
+  .single-news {
+    position: relative;
+    overflow: hidden
+  }
+
+  .pdf {
+    background-color: #F2A30F3b;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+    border-left: 3px solid #3098F2;
+    display: flex;
+    border-radius: 9px;
+    /*background-image: url(../img/Bkg/pdf-0.png);*/
+    background-attachment: scroll;
+    background-blend-mode: color-dodge;
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: #000
+  }
+
+  .admin-content-area .thumbnail {
+    padding: 14px;
+    border-bottom: 3px solid #F2A30F;
+    padding: 15px;
+    box-shadow: 0 3px 19.74px 1.26px #2d2b1940;
+    border-radius: 9px 9px 0 0;
+    border-bottom: 2px solid #3098F2;
+    margin-bottom: 20px;
+    /*background-image: url(../img/Bkg/bkg-administration.png);*/
+    background-position: left;
+    background-size: cover;
+    height: 354px;
+  }
+
+  .admin-content-area i {
+    background: #fff;
+    border-radius: 100%;
+    padding: 3px 6px;
+    text-align: center;
+    color: #F2A30F;
+    width: 30px;
+    height: 30px;
+    line-height: 18px;
+    font-size: 16px;
+    border: 2px solid#F2A30F;
+    margin-right: 10px;
+  }
+
+  .admin-body {
+    background-color: #f9f9f9;
+    margin-top: 0px;
+    /*background-image: url(../img/Bkg/bkg-administration.png);*/
+    background-repeat: no-repeat;
+    background-size: inherit;
+    /* bottom          : 100px; */
+    content: '';
+    height: 100%;
+    right: 0;
+    /* position        : absolute; */
+    background-position: 150% 50%;
+  }
+
+  .single-admin {
+    margin: 10px;
+  }
+
+  .related-content {
+    overflow: hidden;
+    padding: 25px 20px;
+    position: relative;
+    background: #fff;
+    border-bottom: 3px solid#F2A30F;
+    background-color: #3098F2;
+    padding: 15px;
+    box-shadow: 7px 8px 20px 0px #a7a7a740;
+    /* border-radius: 9px 9px 0 0; */
+    /* border-bottom: 3px solid #3098F2; */
+    height: 75px;
+    margin-bottom: 20px;
+    /* width        : 170px; */
+    /*background-image: url(../img/Bkg/wallpaper.jpg);*/
+  }
+
+  .related-content .title {
+    margin-bottom: 0;
+    margin-top: 8px;
+  }
+
+  .related-content>span {
+    display: inline-block;
+    font-style: italic;
+    line-height: 40px;
+  }
+
+  .related-content a {
+    color: #F2A30F;
+    display: inline-block;
+    float: right;
+    font-size: 30px;
+    font-weight: 200;
+    height: 40px;
+    line-height: 39px;
+    text-align: center;
+    width: 0;
+    opacity: 0;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+  }
+
+  .related-content a:hover,
+  .related-content a:focus {
+    background: #215b36;
+    color: #fff;
+    border-color: #215b36;
+  }
+
+  .related-wrap:hover .related-content a {
+    width: 40px;
+    margin-left: 10px;
+    opacity: 1;
+  }
+
+  .owl-carousel .related-wrap {
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -ms-box-shadow: none;
+    -o-box-shadow: none;
+  }
+
+  .related-wrap:hover,
+  .related-content a:hover {
+    -webkit-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    -ms-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    -o-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    -webkit-transition: all 250ms ease-in-out 0s;
+    -moz-transition: all 250ms ease-in-out 0s;
+    -ms-transition: all 250ms ease-in-out 0s;
+    -o-transition: all 250ms ease-in-out 0s;
+    transition: all 250ms ease-in-out 0s;
+  }
+
+  .related-content a {
+    -webkit-box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.15);
+    -ms-box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.15);
+    -o-box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.15);
+  }
+
+  .owl-carousel-admin {
+    padding-top: 20px;
+  }
+
+  .owl-carousel-admin .owl-carousel .owl-nav button.owl-next {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 10px !important;
+    font: inherit;
+    background-color: #fefefe;
+    box-shadow: aliceblue;
+    top: -94px;
+    position: relative;
+    right: -380px;
+    box-shadow: 0px 3px 19.74px 1.26px #0e0e0e47;
+    line-height: 15px;
+  }
+
+  .owl-carousel-admin .owl-carousel .owl-nav button.owl-prev {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 10px !important;
+    font: inherit;
+    background-color: #fefefe;
+    box-shadow: aliceblue;
+    position: relative;
+    top: -94px;
+    left: -380px;
+    box-shadow: 0px 3px 19.74px 1.26px #0e0e0e47;
+    line-height: 15px;
+  }
+
+  .owl-carousel-admin .owl-carousel .owl-nav .owl-prev:after {
+    content: "\f054";
+    font-family: FontAwesome;
+    position: absolute;
+    font-size: 12px;
+    font-weight: 800;
+    color: inherit;
+    right: 0;
+    left: 0;
+    color: #2d7541;
+  }
+
+  .owl-carousel-admin .owl-carousel .owl-nav .owl-next:after {
+    content: "\f053";
+    font-family: FontAwesome;
+    position: absolute;
+    font-size: 12px;
+    font-weight: 800;
+    color: inherit;
+    right: 0;
+    left: 0;
+    color: #2d7541;
+  }
+
+  .admin-content-area .mrg10-15 {
+    margin: 10px -15px;
+  }
+
+  .biblio-content {
+    border: 1px solid #ddd;
+    padding: 20px
+  }
+
+  @media (max-width:400px) {
+    .wrapper.col-2 {
+      width: 100%
+    }
+  }
+
+  .wrapper canvas {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none
+  }
+
+  .toolbar {
+    display: flex
+  }
+
+  .toolbar>* {
+    margin: 0 0 0 8px
+  }
+
+  .chartjs-title {
+    font-size: 2rem;
+    font-weight: 600;
+    white-space: nowrap
+  }
+
+  .chartjs-title::before {
+    background-image: url(logo.svg);
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: 40px;
+    content: 'Chart.js | ';
+    color: #f27173;
+    font-weight: 600;
+    padding-right: 48px
+  }
+
+  #chart-area {
+    width: 300px;
+    height: 200px;
+  }
+
+  .chartjs-caption {
+    font-size: 1.2rem
+  }
+
+  .chartjs-links {
+    display: flex;
+    justify-content: center;
+    padding: 8px 0
+  }
+
+  .chartjs-links a {
+    align-items: center;
+    display: flex;
+    font-size: .9rem;
+    margin: .2rem
+  }
+
+  .chartjs-links .fa:before {
+    margin-left: .5em
+  }
+
+  .samples-category {
+    display: inline-block;
+    margin-bottom: 32px;
+    vertical-align: top;
+    width: 25%
+  }
+
+  .samples-category>.title {
+    color: #aaa;
+    font-weight: 300;
+    font-size: 1.5rem
+  }
+
+  .samples-category:hover>.title {
+    color: #000
+  }
+
+  .samples-category>.items {
+    padding: 8px 0
+  }
+
+  .samples-entry {
+    padding: 0 0 4px 0
+  }
+
+  .samples-entry>.title {
+    font-weight: 700
+  }
+
+  @media (max-width:640px) {
+    .samples-category {
+      width: 33%
+    }
+  }
+
+  @media (max-width:512px) {
+    .samples-category {
+      width: 50%
+    }
+  }
+
+  @media (max-width:420px) {
+    .chartjs-caption {
+      font-size: 1.05rem
+    }
+    .chartjs-title::before {
+      content: ''
+    }
+    .chartjs-links a {
+      flex-direction: column
+    }
+    .chartjs-links .fa {
+      margin: 0
+    }
+    .samples-category {
+      width: 100%
+    }
+  }
+
+  .analyser table {
+    color: #333;
+    font-size: .9rem;
+    margin: 8px 0;
+    width: 100%
+  }
+
+  .analyser th {
+    background-color: #f0f0f0;
+    padding: 2px
+  }
+
+  .analyser td {
+    padding: 2px;
+    text-align: center
+  }
+
+  .pagination {
+    box-shadow: -3px 1px 20px 0 #839c8a7a
+  }
+
+
+  /*MONUMENTS*/
+
+  .monument-body {
+    background-color: #f9f9f9;
+    margin-top: 0px;
+    /*background-image: url(../img/Bkg/Mosquee_Zitouna.png);*/
+    background-repeat: no-repeat;
+    background-size: inherit;
+    /* bottom          : 100px; */
+    content: '';
+    height: 100%;
+    right: 0;
+    /* position        : absolute; */
+    background-position: 150% 50%;
+  }
+
+  .monument-content-area .monument-content {
+    padding: 15px;
+    box-shadow: 0px 3px 19.74px 1.26px #2d2b1940;
+    border-radius: 9px 9px 0 0;
+    border-bottom: 2px solid#F2A30F;
+    margin-bottom: 20px;
+    /*background-image: url(../img/Bkg/zitouna-bkg.png);*/
+    background-size: contain;
+    background-position: 120% 100%;
+    background-repeat: no-repeat;
+    background-color: #fff;
+  }
+
+  .monument-content-area .monument-content img {
+    max-width: 250px;
+    height: 250px;
+  }
+
+  .monument-content-area .monument-content .media-body {
+    padding: 10px;
+    width: 600px;
+  }
+
+  .monument-content-area .monument-content .card-footer .yellow-btn {
+    width: 120px;
+    height: 40px;
+    background: #3098F2;
+    color: white;
+    font-size: 12px;
+    border-radius: 9px;
+    display: inline-block;
+    padding: 12px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: cairo;
+    font-weight: bold
+  }
+
+  .monument-content-area .card-footer .yellow-btn:hover {
+    background: #F2A30F;
+    color: white;
+  }
+
+  .monument-content-area i {
+    background: #ffffff;
+    border-radius: 100%;
+    padding: 3px 6px;
+    text-align: center;
+    color: #F2A30F;
+    width: 30px;
+    height: 30px;
+    line-height: 18px;
+    font-size: 16px;
+    border: 2px solid#F2A30F;
+    margin-right: 10px;
+  }
+
+
+  /*CONTACT*/
+
+  .contact-body {
+    background-color: #f9f9f9;
+    margin-top: 0px;
+    /*background-image: url(../img/Bkg/contact-bkg.png);*/
+    background-repeat: no-repeat;
+    background-size: inherit;
+    /* bottom          : 100px; */
+    content: '';
+    height: 100%;
+    right: 0;
+    /* position        : absolute; */
+    background-position: 0% 0%;
+  }
+
+  .contact-content-area .contact-info i {
+    /*background:#F2A30F;*/
+    border-radius: 100%;
+    padding: 3px 6px;
+    text-align: center;
+    color: #F2A30F;
+    width: 30px;
+    height: 30px;
+    line-height: 18px;
+    font-size: 30px;
+    /* border    : 2px solid#F2A30F; */
+    margin-right: 10px;
+    color: white;
+  }
+
+  .contact-content-area i {
+    background: #F2A30F;
+    /* border-radius: 100%; */
+    padding: 6px 3px;
+    text-align: center;
+    color: #F2A30F;
+    width: 30px;
+    height: 30px;
+    line-height: 15px;
+    font-size: 16px;
+    border: 2px solid#F2A30F;
+    margin-right: 10px;
+    color: white;
+  }
+
+  .contact-content-area ul li {
+    margin: 10px;
+    font-size: 15px;
+  }
+
+  .contact-info {
+    background-color: #fff;
+    padding: 0 50px 60px;
+    position: relative;
+    border: 1px solid #ddd;
+    /* padding      : 20px; */
+    background-color: #ffffff;
+    box-shadow: 0px 3px 19.74px 1.26px rgba(0, 0, 0, 0.11);
+    border-radius: 9px 9px 0 0;
+    border-bottom: 3px solid#F2A30F;
+    /*background-image: url(../img/Bkg/wallpaper.jpg);*/
+  }
+
+  .info-icon {
+    color: #ffffff;
+    font-size: 37px;
+    height: 70px;
+    right: 0;
+    text-align: center;
+    line-height: 74px;
+    margin-bottom: 15px;
+    position: relative;
+    transform: translateY(-13px);
+    -webkit-transform: translateY(-13px);
+    -moz-transform: translateY(-13px);
+    -ms-transform: translateY(-13px);
+    -o-transform: translateY(-13px);
+    width: 70px;
+    background-color: #F2A30F;
+  }
+
+  .info-icon::after {
+    border-left: 10px solid #646464;
+    border-top: 13px solid transparent;
+    content: "";
+    right: -10px;
+    position: absolute;
+  }
+
+  .contact-info p:last-child {
+    margin-bottom: 0;
+  }
+
+
+  /* ===================================================================
+                      Isotop Grid
+          ======================================================================*/
+
+  .isotope-filters ul {
+    margin: 12px 0px;
+    text-align: center;
+  }
+
+  .isotope-filters ul li a {
+    padding: 12px 12px;
+    background-color: white;
+    border: 1px solid #F2A30F;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+
+  .isotope-filters ul li {
+    list-style-type: none;
+    display: inline-block;
+  }
+
+  .isotope-filters ul li a.active {
+    background-color: #215b36;
+    color: white;
+  }
+
+  .grid {
+    width: 100%;
+  }
+
+  .element-item {
+    max-height: 120px;
+    width: 100%;
+    overflow: hidden;
+  }
+
+
+  /* ===================================================================
+                      Portfolio Grid
+  ======================================================================*/
+
+
+  /*
+   * gallery-isotope.less
+   * -----------------------------------------------
+  */
+
+
+  /* -------- Portfolio Isotop Filter ---------- */
+
+  .portfolio-filter {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  .portfolio-filter a {
+    border-right: 3px solid transparent;
+    background-color: #f9f9f9;
+    display: inline-block;
+    float: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 5px;
+    outline: medium none;
+    padding: 5px 15px;
+    -webkit-transition: all 100ms ease-in-out 0s;
+    -o-transition: all 100ms ease-in-out 0s;
+    transition: all 100ms ease-in-out 0s;
+    box-shadow: 0px 3px 19.74px 1.26px rgba(0, 0, 0, 0.11);
+    border: 1px solid;
+    border-radius: 9px;
+  }
+
+  .portfolio-filter a.active,
+  .portfolio-filter a:hover {
+    color: #F2A30F;
+  }
+
+  @media only screen and (max-width: 479px) {
+    .portfolio-filter a {
+      margin-bottom: 10px;
+    }
+  }
+
+  .img-fullwidth {
+    height: 250px;
+    width: 255px;
+  }
+
+
+  /* -------- Portfolio Isotop Gallery ---------- */
+
+  .gallery-content-area i {
+    background: #F2A30F;
+    border-radius: 100%;
+    padding: 6px 3px;
+    text-align: center;
+    color: #F2A30F;
+    width: 30px;
+    height: 30px;
+    line-height: 15px;
+    font-size: 16px;
+    border: 2px solid#F2A30F;
+    margin-right: 10px;
+    color: white;
+    text-align: center;
+  }
+
+  .gallery-isotope {
+    /*gutter*/
+    /* item sizer */
+    /* by default 4 grids */
+    /*portfolio 2 grids*/
+    /*portfolio 2 grids*/
+    /*portfolio 3 grids*/
+    /*portfolio 4 grids*/
+    /*portfolio 5 grids*/
+    /*portfolio 6 grids*/
+    /*portfolio 7 grids*/
+    /*portfolio 8 grids*/
+    /*portfolio 9 grids*/
+    /*portfolio 10 grids*/
+  }
+
+  .gallery-isotope.gutter .gallery-item {
+    padding-left: 5px;
+    padding-bottom: 5px;
+  }
+
+  .gallery-isotope.gutter-small .gallery-item {
+    padding-left: 2px;
+    padding-bottom: 2px;
+  }
+
+  .gallery-isotope.gutter-0 .gallery-item {
+    padding-left: 0;
+    padding-bottom: 0;
+  }
+
+  .gallery-isotope.gutter-5 .gallery-item {
+    padding-left: 5px;
+    padding-bottom: 5px;
+  }
+
+  .gallery-isotope.gutter-10 .gallery-item {
+    padding-left: 10px;
+    padding-bottom: 10px;
+  }
+
+  .gallery-isotope.gutter-20 .gallery-item {
+    padding-left: 20px;
+    padding-bottom: 20px;
+  }
+
+  .gallery-isotope.gutter-30 .gallery-item {
+    padding-left: 30px;
+    padding-bottom: 30px;
+  }
+
+  .gallery-isotope.gutter-40 .gallery-item {
+    padding-left: 40px;
+    padding-bottom: 40px;
+  }
+
+  .gallery-isotope.gutter-50 .gallery-item {
+    padding-left: 50px;
+    padding-bottom: 50px;
+  }
+
+  .gallery-isotope.gutter-60 .gallery-item {
+    padding-left: 60px;
+    padding-bottom: 60px;
+  }
+
+  .gallery-isotope .gallery-item-sizer {
+    padding-left: 0 !important;
+    padding-bottom: 0 !important;
+    width: 25%;
+  }
+
+  .gallery-isotope .gallery-item-sizer.wide {
+    width: 50%;
+  }
+
+  .gallery-isotope .gallery-item {
+    padding-left: 0;
+    padding-bottom: 0;
+    width: 25%;
+  }
+
+  .gallery-isotope .gallery-item.wide {
+    width: 50%;
+  }
+
+  .gallery-isotope.grid-1 .gallery-item {
+    width: 100%;
+  }
+
+  .gallery-isotope.grid-1 .gallery-item.wide {
+    width: 100%;
+  }
+
+  .gallery-isotope.grid-2 .gallery-item {
+    width: 50%;
+  }
+
+  .gallery-isotope.grid-2 .gallery-item.wide {
+    width: 100%;
+  }
+
+  .gallery-isotope.grid-3 .gallery-item {
+    width: 33.3333%;
+  }
+
+  .gallery-isotope.grid-3 .gallery-item.wide {
+    width: 66.6667%;
+  }
+
+  .gallery-isotope.grid-4 .gallery-item {
+    width: 25%;
+  }
+
+  .gallery-isotope.grid-4 .gallery-item.wide {
+    width: 50%;
+  }
+
+  .gallery-isotope.grid-5 .gallery-item {
+    width: 20%;
+  }
+
+  .gallery-isotope.grid-5 .gallery-item.wide {
+    width: 40%;
+  }
+
+  .gallery-isotope.grid-6 .gallery-item {
+    width: 16.666666667%;
+  }
+
+  .gallery-isotope.grid-6 .gallery-item.wide {
+    width: 33.333%;
+  }
+
+  .gallery-isotope.grid-7 .gallery-item {
+    width: 14.2857143%;
+  }
+
+  .gallery-isotope.grid-7 .gallery-item.wide {
+    width: 28.5714286%;
+  }
+
+  .gallery-isotope.grid-8 .gallery-item {
+    width: 12.5%;
+  }
+
+  .gallery-isotope.grid-8 .gallery-item.wide {
+    width: 25%;
+  }
+
+  .gallery-isotope.grid-9 .gallery-item {
+    width: 11.11%;
+  }
+
+  .gallery-isotope.grid-9 .gallery-item.wide {
+    width: 22.22%;
+  }
+
+  .gallery-isotope.grid-10 .gallery-item {
+    width: 10%;
+  }
+
+  .gallery-isotope.grid-10 .gallery-item.wide {
+    width: 20%;
+  }
+
+
+  /* -------- Portfolio Isotop Item Media Query ---------- */
+
+  @media only screen and (max-width: 991px) {
+    .gallery-isotope .gallery-item {
+      width: 33.333% !important;
+    }
+    .gallery-isotope .gallery-item.wide {
+      width: 66.6667% !important;
+    }
+  }
+
+  @media only screen and (max-width: 767px) {
+    .gallery-isotope .gallery-item {
+      width: 50% !important;
+    }
+    .gallery-isotope .gallery-item.wide {
+      width: 100% !important;
+    }
+  }
+
+  @media only screen and (max-width: 479px) {
+    .gallery-isotope .gallery-item {
+      width: 100% !important;
+    }
+    .gallery-isotope .gallery-item.wide {
+      width: 100% !important;
+    }
+  }
+
+
+  /* -------- Portfolio Isotop Overlay Effect ---------- */
+
+  .gallery-isotope.default-animation-effect .gallery-item {
+    overflow: hidden;
+  }
+
+  .gallery-isotope.default-animation-effect .gallery-item .thumb {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .gallery-isotope.default-animation-effect .gallery-item .hover-link {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    height: 100%;
+    background: none !important;
+    color: transparent !important;
+    z-index: 11;
+  }
+
+  .gallery-isotope.default-animation-effect .gallery-item .overlay-shade {
+    position: absolute;
+    display: inline-block;
+    vertical-align: middle;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 12;
+    background-color: #333;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    -webkit-transition: opacity 0.3s ease-in-out;
+    -o-transition: opacity 0.3s ease-in-out;
+    transition: opacity 0.3s ease-in-out;
+  }
+
+  .gallery-isotope.default-animation-effect .gallery-item:hover .overlay-shade {
+    opacity: 0.9;
+    filter: alpha(opacity=90);
+  }
+
+  .gallery-isotope.default-animation-effect .gallery-item .icons-holder {
+    position: absolute;
+    top: 0%;
+    right: 50%;
+    display: inline-block;
+    width: auto;
+    height: 36px;
+    vertical-align: middle;
+    z-index: 13;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .gallery-isotope.default-animation-effect .gallery-item .icons-holder .icons-holder-inner {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    margin: -18px -50% 0 0;
+  }
+
+  .gallery-isotope.default-animation-effect .gallery-item .icons-holder .icons-holder-inner a {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .gallery-isotope.default-animation-effect .gallery-item:hover .icons-holder {
+    top: 50%;
+  }
+
+  .gallery-isotope.default-animation-effect .gallery-item:hover .icons-holder .icons-holder-inner a {
+    opacity: 1;
+    filter: alpha(opacity=1);
+  }
+
+  .gallery-isotope.default-animation-effect .gallery-item .portfolio-description {
+    padding: 10px 15px;
+    background-color: #f8f8f8;
+  }
+
+  .gallery-isotope.default-animation-effect .gallery-item .portfolio-description .title {
+    margin: 0;
+  }
+
+  .gallery-isotope.default-animation-effect .gallery-item .portfolio-description .title a {
+    color: #333333;
+  }
+
+  .gallery-isotope.default-animation-effect .gallery-item .text-holder {
+    box-sizing: border-box;
+    display: block;
+    height: 100%;
+    right: 0;
+    opacity: 0;
+    overflow: hidden;
+    padding: 25px 30px 60px;
+    position: absolute;
+    top: 100px;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -o-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+    width: 100%;
+    z-index: 13;
+  }
+
+  .gallery-isotope.default-animation-effect .gallery-item .text-holder .title {
+    color: #fff;
+  }
+
+  .gallery-isotope.default-animation-effect .gallery-item:hover .text-holder {
+    opacity: 1;
+    top: 0;
+  }
+
+  .gallery-isotope.default-animation-effect .flex-control-nav {
+    z-index: 111;
+  }
+
+
+  /*
+   * Shortcode: Flexslider.less
+   * -----------------------------------------------
+  */
+
+  .flex-container a:active,
+  .flexslider a:active,
+  .flex-container a:focus,
+  .flexslider a:focus {
+    outline: none;
+    border: none;
+  }
+
+  .flex-direction-nav {
+    display: none;
+  }
+
+  .flexslider {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+
+  .flex-viewport {
+    max-height: 2000px;
+    -webkit-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+  }
+
+  .flex-control-nav {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border: none;
+    width: auto;
+    position: absolute;
+    z-index: 10;
+    text-align: center;
+    bottom: 15px;
+    left: 15px;
+  }
+
+  .flex-control-nav li {
+    float: right;
+    display: block;
+    margin: 0 3px;
+    width: 10px;
+    height: 10px;
+  }
+
+  .flex-control-nav li a {
+    display: block;
+    cursor: pointer;
+    text-indent: -9999px;
+    width: 10px;
+    height: 10px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .flex-control-nav li:hover a,
+  .flex-control-nav li a.flex-active {
+    background-color: #fff;
+  }
+
+
+  /*
+   * 	FlexSlider
+   * -----------------------------------------------
+  */
+
+
+  /** jQuery FlexSlider v2.6.0* http://www.woothemes.com/flexslider/** Copyright 2012 WooThemes* Free to use under the GPLv2 and later license.* http://www.gnu.org/licenses/gpl-2.0.html** Contributing author: Tyler Smith (@mbmufffin)**/
+
+
+  /* ====================================================================================================================* FONT-FACE* ====================================================================================================================*/
+
+
+  /* ====================================================================================================================* RESETS* ====================================================================================================================*/
+
+  .flex-container a:hover,
+  .flex-slider a:hover {
+    outline: none;
+  }
+
+  .slides,
+  .slides>li,
+  .flex-control-nav,
+  .flex-direction-nav {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .flex-pauseplay span {
+    text-transform: capitalize;
+  }
+
+
+  /* ====================================================================================================================* BASE STYLES* ====================================================================================================================*/
+
+  .flexslider {
+    margin: 0;
+    padding: 0;
+  }
+
+  .flexslider .slides>li {
+    display: none;
+    -webkit-backface-visibility: hidden;
+  }
+
+  .flexslider .slides img {
+    width: 100%;
+    display: block;
+  }
+
+  .flexslider .slides:after {
+    content: "\0020";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+  }
+
+  html[xmlns] .flexslider .slides {
+    display: block;
+  }
+
+  * html .flexslider .slides {
+    height: 1%;
+  }
+
+  .no-js .flexslider .slides>li:first-child {
+    display: block;
+  }
+
+
+  /* ====================================================================================================================* DEFAULT THEME* ====================================================================================================================*/
+
+  .flexslider {
+    margin: 0 0 60px;
+    background: #ffffff;
+    border: 4px solid #ffffff;
+    position: relative;
+    zoom: 1;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-box-shadow: ''0 1px 4px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: ''0 1px 4px rgba(0, 0, 0, 0.2);
+    -o-box-shadow: ''0 1px 4px rgba(0, 0, 0, 0.2);
+    box-shadow: ''0 1px 4px rgba(0, 0, 0, 0.2);
+  }
+
+  .flexslider .slides {
+    zoom: 1;
+  }
+
+  .flexslider .slides img {
+    height: auto;
+    -moz-user-select: none;
+  }
+
+  .flex-viewport {
+    max-height: 2000px;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+  }
+
+  .loading .flex-viewport {
+    max-height: 300px;
+  }
+
+  .carousel li {
+    margin-left: 5px;
+  }
+
+  .flex-direction-nav {
+    height: 0;
+  }
+
+  .flex-direction-nav a {
+    text-decoration: none;
+    display: block;
+    width: 40px;
+    height: 40px;
+    margin: -20px 0 0;
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    overflow: hidden;
+    opacity: 0;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.8);
+    text-shadow: -1px 1px 0 rgba(255, 255, 255, 0.3);
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .flex-direction-nav a:before {
+    font-family: "flexslider-icon";
+    font-size: 40px;
+    display: inline-block;
+    content: '\f001';
+    color: rgba(0, 0, 0, 0.8);
+    text-shadow: -1px 1px 0 rgba(255, 255, 255, 0.3);
+  }
+
+  .flex-direction-nav a.flex-next:before {
+    content: '\f002';
+  }
+
+  .flex-direction-nav .flex-prev {
+    right: -50px;
+  }
+
+  .flex-direction-nav .flex-next {
+    left: -50px;
+    text-align: left;
+  }
+
+  .flexslider:hover .flex-direction-nav .flex-prev {
+    opacity: 0.7;
+    right: 10px;
+  }
+
+  .flexslider:hover .flex-direction-nav .flex-prev:hover {
+    opacity: 1;
+  }
+
+  .flexslider:hover .flex-direction-nav .flex-next {
+    opacity: 0.7;
+    left: 10px;
+  }
+
+  .flexslider:hover .flex-direction-nav .flex-next:hover {
+    opacity: 1;
+  }
+
+  .flex-direction-nav .flex-disabled {
+    opacity: 0 !important;
+    filter: alpha(opacity=0);
+    cursor: default;
+    z-index: -1;
+  }
+
+  .flex-pauseplay a {
+    display: block;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+    opacity: 0.8;
+    z-index: 10;
+    overflow: hidden;
+    cursor: pointer;
+    color: #000;
+  }
+
+  .flex-pauseplay a:before {
+    font-family: "flexslider-icon";
+    font-size: 20px;
+    display: inline-block;
+    content: '\f004';
+  }
+
+  .flex-pauseplay a:hover {
+    opacity: 1;
+  }
+
+  .flex-pauseplay a.flex-play:before {
+    content: '\f003';
+  }
+
+  .flex-control-nav {
+    width: 100%;
+    position: absolute;
+    bottom: -40px;
+    text-align: center;
+  }
+
+  .flex-control-nav li {
+    margin: 0 6px;
+    display: inline-block;
+    zoom: 1;
+    *display: inline;
+  }
+
+  .flex-control-paging li a {
+    width: 11px;
+    height: 11px;
+    display: block;
+    background: #666;
+    background: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    text-indent: -9999px;
+    -webkit-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
+    -o-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
+    box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+  }
+
+  .flex-control-paging li a:hover {
+    background: #333;
+    background: rgba(0, 0, 0, 0.7);
+  }
+
+  .flex-control-paging li a.flex-active {
+    background: #000;
+    background: rgba(0, 0, 0, 0.9);
+    cursor: default;
+  }
+
+  .flex-control-thumbs {
+    margin: 5px 0 0;
+    position: static;
+    overflow: hidden;
+  }
+
+  .flex-control-thumbs li {
+    width: 25%;
+    float: right;
+    margin: 0;
+  }
+
+  .flex-control-thumbs img {
+    width: 100%;
+    height: auto;
+    display: block;
+    opacity: .7;
+    cursor: pointer;
+    -moz-user-select: none;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+  }
+
+  .flex-control-thumbs img:hover {
+    opacity: 1;
+  }
+
+  .flex-control-thumbs .flex-active {
+    opacity: 1;
+    cursor: default;
+  }
+
+  .thumb-title {
+    margin: 10px;
+    text-align: center;
+  }
+
+  .thumb-title a {
+    text-align: center;
+    font-family: 'Hacen Tunisia Lt Regular';
+  }
+
+
+  /* ====================================================================================================================* RESPONSIVE* ====================================================================================================================*/
+
+  @media screen and (max-width: 860px) {
+    .flex-direction-nav .flex-prev {
+      opacity: 1;
+      right: 10px;
+    }
+    .flex-direction-nav .flex-next {
+      opacity: 1;
+      left: 10px;
+    }
+  }
+
+
+  /*
+   * 	isotope
+   * -----------------------------------------------
+  */
+
+  .isotope,
+  .isotope .isotope-item {
+    -webkit-transition-duration: .8s;
+    -moz-transition-duration: .8s;
+    -o-transition-duration: .8s;
+    transition-duration: .8s
+  }
+
+  .isotope {
+    -webkit-transition-property: height, width;
+    -moz-transition-property: height, width;
+    -o-transition-property: height, width;
+    transition-property: height, width
+  }
+
+  .isotope .isotope-item {
+    -webkit-transition-property: -webkit-transform, opacity;
+    -moz-transition-property: -moz-transform, opacity;
+    -o-transition-property: top, right, opacity;
+    transition-property: transform, opacity
+  }
+
+  .isotope .isotope-item.no-transition,
+  .isotope.no-transition,
+  .isotope.no-transition .isotope-item {
+    -webkit-transition-duration: 0s;
+    -moz-transition-duration: 0s;
+    -o-transition-duration: 0s;
+    transition-duration: 0s
+  }
+
+  .isotope.infinite-scrolling {
+    -webkit-transition: none;
+    -moz-transition: none;
+    -o-transition: none;
+    transition: none
+  }
+
+  .isotope-item {
+    z-index: 2
+  }
+
+  .isotope-hidden.isotope-item {
+    pointer-events: none;
+    z-index: 1
+  }
+
+
+  /*
+   * 	Magnific Popup
+   * -----------------------------------------------
+  */
+
+
+  /* Magnific Popup CSS */
+
+  .mfp-bg {
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1042;
+    overflow: hidden;
+    position: fixed;
+    background: #0b0b0b;
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+  }
+
+  .mfp-wrap {
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1043;
+    position: fixed;
+    outline: none !important;
+    -webkit-backface-visibility: hidden;
+  }
+
+  .mfp-container {
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    right: 0;
+    top: 0;
+    padding: 0 8px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  .mfp-container:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+  }
+
+  .mfp-align-top .mfp-container:before {
+    display: none;
+  }
+
+  .mfp-content {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 auto;
+    text-align: right;
+    z-index: 1045;
+  }
+
+  .mfp-inline-holder .mfp-content,
+  .mfp-ajax-holder .mfp-content {
+    width: 100%;
+    cursor: auto;
+  }
+
+  .mfp-ajax-cur {
+    cursor: progress;
+  }
+
+  .mfp-zoom-out-cur,
+  .mfp-zoom-out-cur .mfp-image-holder .mfp-close {
+    cursor: -moz-zoom-out;
+    cursor: -webkit-zoom-out;
+    cursor: zoom-out;
+  }
+
+  .mfp-zoom {
+    cursor: pointer;
+    cursor: -webkit-zoom-in;
+    cursor: -moz-zoom-in;
+    cursor: zoom-in;
+  }
+
+  .mfp-auto-cursor .mfp-content {
+    cursor: auto;
+  }
+
+  .mfp-close,
+  .mfp-arrow,
+  .mfp-preloader,
+  .mfp-counter {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+  .mfp-loading.mfp-figure {
+    display: none;
+  }
+
+  .mfp-hide {
+    display: none !important;
+  }
+
+  .mfp-preloader {
+    color: #CCC;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    text-align: center;
+    margin-top: -0.8em;
+    right: 8px;
+    left: 8px;
+    z-index: 1044;
+  }
+
+  .mfp-preloader a {
+    color: #CCC;
+  }
+
+  .mfp-preloader a:hover {
+    color: #FFF;
+  }
+
+  .mfp-s-ready .mfp-preloader {
+    display: none;
+  }
+
+  .mfp-s-error .mfp-content {
+    display: none;
+  }
+
+  button.mfp-close,
+  button.mfp-arrow {
+    overflow: visible;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    -webkit-appearance: none;
+    display: block;
+    outline: none;
+    padding: 0;
+    z-index: 1046;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+
+  button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+  }
+
+  .mfp-close {
+    width: 44px;
+    height: 44px;
+    line-height: 44px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    text-decoration: none;
+    text-align: center;
+    opacity: 0.65;
+    filter: alpha(opacity=65);
+    padding: 0 10px 18px 0;
+    color: #FFF;
+    font-style: normal;
+    font-size: 28px;
+    font-family: Arial, Baskerville, monospace;
+  }
+
+  .mfp-close:hover,
+  .mfp-close:focus {
+    opacity: 1;
+    filter: alpha(opacity=100);
+  }
+
+  .mfp-close:active {
+    top: 1px;
+  }
+
+  .mfp-close-btn-in .mfp-close {
+    color: #333;
+  }
+
+  .mfp-image-holder .mfp-close,
+  .mfp-iframe-holder .mfp-close {
+    color: #FFF;
+    left: -6px;
+    text-align: left;
+    padding-left: 6px;
+    width: 100%;
+  }
+
+  .mfp-counter {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #CCC;
+    font-size: 12px;
+    line-height: 18px;
+    white-space: nowrap;
+  }
+
+  .mfp-arrow {
+    position: absolute;
+    opacity: 0.65;
+    filter: alpha(opacity=65);
+    margin: 0;
+    top: 50%;
+    margin-top: -55px;
+    padding: 0;
+    width: 90px;
+    height: 110px;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .mfp-arrow:active {
+    margin-top: -54px;
+  }
+
+  .mfp-arrow:hover,
+  .mfp-arrow:focus {
+    opacity: 1;
+    filter: alpha(opacity=100);
+  }
+
+  .mfp-arrow:before,
+  .mfp-arrow:after,
+  .mfp-arrow .mfp-b,
+  .mfp-arrow .mfp-a {
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: 35px;
+    margin-right: 35px;
+    border: medium inset transparent;
+  }
+
+  .mfp-arrow:after,
+  .mfp-arrow .mfp-a {
+    border-top-width: 13px;
+    border-bottom-width: 13px;
+    top: 8px;
+  }
+
+  .mfp-arrow:before,
+  .mfp-arrow .mfp-b {
+    border-top-width: 21px;
+    border-bottom-width: 21px;
+    opacity: 0.7;
+  }
+
+  .mfp-arrow-left {
+    right: 0;
+  }
+
+  .mfp-arrow-left:after,
+  .mfp-arrow-left .mfp-a {
+    border-left: 17px solid #FFF;
+    margin-right: 31px;
+  }
+
+  .mfp-arrow-left:before,
+  .mfp-arrow-left .mfp-b {
+    margin-right: 25px;
+    border-left: 27px solid #3F3F3F;
+  }
+
+  .mfp-arrow-right {
+    left: 0;
+  }
+
+  .mfp-arrow-right:after,
+  .mfp-arrow-right .mfp-a {
+    border-right: 17px solid #FFF;
+    margin-right: 39px;
+  }
+
+  .mfp-arrow-right:before,
+  .mfp-arrow-right .mfp-b {
+    border-right: 27px solid #3F3F3F;
+  }
+
+  .mfp-iframe-holder {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .mfp-iframe-holder .mfp-content {
+    line-height: 0;
+    width: 100%;
+    max-width: 900px;
+  }
+
+  .mfp-iframe-holder .mfp-close {
+    top: -40px;
+  }
+
+  .mfp-iframe-scaler {
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    padding-top: 56.25%;
+  }
+
+  .mfp-iframe-scaler iframe {
+    position: absolute;
+    display: block;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+    background: #000;
+  }
+
+
+  /* Main image in popup */
+
+  img.mfp-img {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    line-height: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 40px 0 40px;
+    margin: 0 auto;
+  }
+
+
+  /* The shadow behind the image */
+
+  .mfp-figure {
+    line-height: 0;
+  }
+
+  .mfp-figure:after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 40px;
+    bottom: 40px;
+    display: block;
+    left: 0;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+    background: #444;
+  }
+
+  .mfp-figure small {
+    color: #BDBDBD;
+    display: block;
+    font-size: 12px;
+    line-height: 14px;
+  }
+
+  .mfp-figure figure {
+    margin: 0;
+  }
+
+  .mfp-bottom-bar {
+    margin-top: -36px;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 100%;
+    cursor: auto;
+  }
+
+  .mfp-title {
+    text-align: right;
+    line-height: 18px;
+    color: #F3F3F3;
+    word-wrap: break-word;
+    padding-left: 36px;
+  }
+
+  .mfp-image-holder .mfp-content {
+    max-width: 100%;
+  }
+
+  .mfp-gallery .mfp-image-holder .mfp-figure {
+    cursor: pointer;
+  }
+
+  @media screen and (max-width: 800px) and (orientation: landscape),
+  screen and (max-height: 300px) {
+    /*** Remove all paddings around the image on small screen*/
+    .mfp-img-mobile .mfp-image-holder {
+      padding-right: 0;
+      padding-left: 0;
+    }
+    .mfp-img-mobile img.mfp-img {
+      padding: 0;
+    }
+    .mfp-img-mobile .mfp-figure:after {
+      top: 0;
+      bottom: 0;
+    }
+    .mfp-img-mobile .mfp-figure small {
+      display: inline;
+      margin-right: 5px;
+    }
+    .mfp-img-mobile .mfp-bottom-bar {
+      background: rgba(0, 0, 0, 0.6);
+      bottom: 0;
+      margin: 0;
+      top: auto;
+      padding: 3px 5px;
+      position: fixed;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+    }
+    .mfp-img-mobile .mfp-bottom-bar:empty {
+      padding: 0;
+    }
+    .mfp-img-mobile .mfp-counter {
+      left: 5px;
+      top: 3px;
+    }
+    .mfp-img-mobile .mfp-close {
+      top: 0;
+      left: 0;
+      width: 35px;
+      height: 35px;
+      line-height: 35px;
+      background: rgba(0, 0, 0, 0.6);
+      position: fixed;
+      text-align: center;
+      padding: 0;
+    }
+  }
+
+  @media all and (max-width: 900px) {
+    .mfp-arrow {
+      -webkit-transform: scale(0.75);
+      transform: scale(0.75);
+    }
+    .mfp-arrow-left {
+      -webkit-transform-origin: 100%;
+      transform-origin: 100%;
+    }
+    .mfp-arrow-right {
+      -webkit-transform-origin: 0%;
+      transform-origin: 0%;
+    }
+    .mfp-container {
+      padding-right: 6px;
+      padding-left: 6px;
+    }
+  }
+
+  .mfp-ie7 .mfp-img {
+    padding: 0;
+  }
+
+  .mfp-ie7 .mfp-bottom-bar {
+    width: 600px;
+    right: 50%;
+    margin-right: -300px;
+    margin-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  .mfp-ie7 .mfp-container {
+    padding: 0;
+  }
+
+  .mfp-ie7 .mfp-content {
+    padding-top: 44px;
+  }
+
+  .mfp-ie7 .mfp-close {
+    top: 0;
+    left: 0;
+    padding-top: 0;
+  }
+
+
+  /***********************************************************************
+                 PANEL & TABS
+          **************************************************************************************/
+
+  .panel-default>.panel-heading {
+    padding: 10px;
+    background-color: #ffffff;
+    box-shadow: 0px 3px 19.74px 1.26px rgba(0, 0, 0, 0.11);
+    border-top: 2px solid #F2A30F;
+    /*background-image: url(../img/Bkg/wallpaper.jpg);*/
+  }
+
+  .panel-default>.panel-heading {
+    padding: 10px;
+    background-color: #ffffff;
+    box-shadow: 0px 3px 19.74px 1.26px rgba(0, 0, 0, 0.11);
+    border-top: 2px solid#F2A30F;
+    /*background-image: url(../img/Bkg/wallpaper.jpg);*/
+  }
+
+  .panel-default>.panel-heading+.panel-collapse>.panel-body {
+    border-top-color: #fff;
+  }
+
+  .panel-group .panel-heading+.panel-collapse>.list-group,
+  .panel-group .panel-heading+.panel-collapse>.panel-body {
+    border-top: 1px solid #fff;
+  }
+
+  .tab-content>.tab-pane {
+    padding: 15px;
+    border: 3px solid #ffffff;
+    background-color: #fff;
+    box-shadow: 0px 3px 19.74px 1.26px rgba(0, 0, 0, 0.11);
+    border-top: none;
+  }
+
+  .nav-tabs>li.active>a,
+  .nav-tabs>li.active>a:focus,
+  .nav-tabs>li.active>a:hover {
+    color: #555;
+    cursor: default;
+    background-color: #eae6cd;
+    border: none;
+    /* border-bottom: 2px solid#F2A30F; */
+    padding: 10px;
+    background-color: #ffffff;
+    /* box-shadow   : 0px 3px 19.74px 1.26px rgba(0, 0, 0, 0.11); */
+    border-top: 2px solid #F2A30F;
+    /*background-image: url(../img/Bkg/wallpaper.jpg);*/
+  }
+
+  .nav-tabs {
+    border-top: none;
+    border-bottom: none;
+  }
+
+  .space {
+    margin: 30px 0px;
+  }
+
+  .pull-search {
+    float: right;
+  }
+
+  .pull-search .form-group input {
+    margin: 0px 0px;
+  }
+
+  .UP-position {
+    top: 520px;
+    right: 220px;
+  }
+
+  .DOWN-position {
+    top: 520px;
+    left: 220px;
+  }
+
+  #carousel-events .carousel-control .icon-prev,
+  #carousel-events .carousel-control .glyphicon-chevron-up {
+    top: 520px;
+    right: 220px;
+  }
+
+  #carousel-events .carousel-control .icon-next,
+  #carousel-events .carousel-control .glyphicon-chevron-down {
+    top: 520px;
+    left: 220px;
+  }
+
+  #carousel-news .carousel-control .icon-next,
+  #carousel-news .carousel-control .glyphicon-chevron-right {
+    margin-right: -10px;
+    right: auto;
+    margin-right: -10px;
+    left: 305%;
+    margin-left: -10px;
+    top: 455px;
+  }
+
+  #carousel-news .carousel-control .icon-prev,
+  #carousel-news .carousel-control .glyphicon-chevron-left {
+    margin-left: -10px;
+    right: 285%;
+    left: auto;
+    margin-left: -10px;
+    top: 455px;
+  }
+
+  .carousel-control {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 15%;
+    font-size: 20px;
+    color: #3098F2;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+    filter: alpha(opacity=50);
+    opacity: .5;
+  }
+
+  .carousel-control:focus,
+  .carousel-control:hover {
+    color: #F2A30F;
+    text-decoration: none;
+    filter: alpha(opacity=90);
+    outline: 0;
+    opacity: .9;
+  }
+
+  .height-0 {
+    height: 0px;
+  }
+
+  .news-content-area .pagination span {
+    margin-top: 0px;
+  }
+
+  .icone-widget {
+    text-align: center;
+    padding: 10px 10px 10px;
+  }
+
+  .icone-widget img {
+    width: 90px;
+    /* height: 100px; */
+  }
+
+  .box-shadow {
+    box-shadow: 0 3px 19.74px 1.26px rgb(0 0 0 / 25%);
+  }
+
+  .service-en-ligne {
+    border: 1px solid #ddd;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 3px 19.74px 1.26px rgba(0, 0, 0, .11);
+    /* border-radius: 9px 9px 0 0; */
+    /* border-bottom: 3px solid#F2A30F; */
+    height: 200px;
+    margin-top: 20px;
+  }
